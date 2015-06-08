@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Community xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <communityFeedPage>My_Product_Idea_main</communityFeedPage>
+    <description>My Salesforce Idea is a forum where salesforce.com customers can suggest new product concepts, promote favorite enhancements, interact with product managers and other customers, and preview what we are planning to deliver. In salesforce.com’s ongoing efforts to continually create a dialog with the community, My Salesforce Idea provides an open and direct channel of communication for customers.</description>
+    <emailNotificationUrl>https://srikbadge.force.com/{!communityUrlPrefix}/My_Product_Idea_main?id={!entityId}</emailNotificationUrl>
+    <enableChatterAnswers>true</enableChatterAnswers>
+    <enablePrivateQuestions>true</enablePrivateQuestions>
+    <expertsGroup>SupportAgents</expertsGroup>
+    <reputationLevels>
+        <ideaReputationLevels>
+            <name>Observer</name>
+            <value>0</value>
+        </ideaReputationLevels>
+        <ideaReputationLevels>
+            <name>Contributor</name>
+            <value>100</value>
+        </ideaReputationLevels>
+        <ideaReputationLevels>
+            <name>Influencer</name>
+            <value>400</value>
+        </ideaReputationLevels>
+        <ideaReputationLevels>
+            <name>Thought Leader</name>
+            <value>1500</value>
+        </ideaReputationLevels>
+    </reputationLevels>
+    <showInPortal>false</showInPortal>
+    <site>Cirrus_Customers</site>
+</Community>

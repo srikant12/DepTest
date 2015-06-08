@@ -1,0 +1,11 @@
+<apex:page standardController="Account">
+  
+  <p>Hello {!$User.FirstName} </p>
+  
+  <p> You are viewing {!account.name} account. </p>
+  
+  <p> Account owner is {!account.owner.name} </p>
+  
+  
+  
+</apex:page>

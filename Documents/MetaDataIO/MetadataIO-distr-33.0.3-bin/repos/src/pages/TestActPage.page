@@ -1,0 +1,15 @@
+<apex:page controller="TestActionFunction" showHeader="true" sidebar="true">
+    <apex:form >                                                            
+                                                            
+    <apex:pageBlock >
+    <apex:pageBlockSection >
+        <apex:commandButton action="{!save}" value="Save" id="theButton"/>
+
+
+    </apex:pageBlockSection>
+    </apex:pageBlock>
+                                                        
+    </apex:form>
+
+
+</apex:page>

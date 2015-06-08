@@ -1,0 +1,34 @@
+<apex:page controller="AVFAccountController">
+<apex:pageMessages />
+<script>
+function confirmCancel() 
+{
+var isCancel = confirm ("Are you sure ?");
+if (isCancel) return true;
+    return false;
+}    
+</script>
+    <apex:form >
+    	<apex:pageBlock title="Enter Account Information">
+        <apex:outputText >Account Name is: </apex:outputText>
+		<apex:inputText value="{!Account.Name}" required="true"/>
+            
+         <apex:outputText >Contact First Name is: </apex:outputText>
+			<apex:inputText value="{!Contact.FirstName}"/>
+            
+         <apex:outputText >Contact Last Name is: </apex:outputText>
+			<apex:inputText value="{!Contact.LastName}"/>
+
+         <apex:outputText >Contact Email is: </apex:outputText>
+			<apex:inputText value="{!Contact.email}"/>
+            
+            
+            <apex:pageBlockButtons >
+
+            <apex:commandButton action="{!Step2}" value="Next"/>
+            <apex:commandButton action="{!cancel}" value="Cancel"/>            
+       </apex:pageBlockButtons>    
+        </apex:pageBlock>
+    
+    </apex:form>
+</apex:page>

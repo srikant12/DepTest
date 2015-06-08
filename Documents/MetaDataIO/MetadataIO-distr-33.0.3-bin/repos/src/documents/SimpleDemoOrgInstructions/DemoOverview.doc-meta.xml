@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>These are the simple demo org demo instructions.</description>
+    <internalUseOnly>false</internalUseOnly>
+    <keywords>Demo, Flow, demonstration, instructions, setup</keywords>
+    <name>Demo Overview</name>
+    <public>false</public>
+</Document>

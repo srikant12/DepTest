@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Orders</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Orders</value>
+    </caseValues>
+    <fields>
+        <label><!-- CustomerID --></label>
+        <name>CustomerID__c</name>
+    </fields>
+    <fields>
+        <label><!-- EmployeeID --></label>
+        <name>EmployeeID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Freight --></label>
+        <name>Freight__c</name>
+    </fields>
+    <fields>
+        <label><!-- OrderDate --></label>
+        <name>OrderDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- OrderID --></label>
+        <name>OrderID__c</name>
+    </fields>
+    <fields>
+        <label><!-- RequiredDate --></label>
+        <name>RequiredDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- ShipAddress --></label>
+        <name>ShipAddress__c</name>
+    </fields>
+    <fields>
+        <label><!-- ShipCity --></label>
+        <name>ShipCity__c</name>
+    </fields>
+    <fields>
+        <label><!-- ShipCountry --></label>
+        <name>ShipCountry__c</name>
+    </fields>
+    <fields>
+        <label><!-- ShipName --></label>
+        <name>ShipName__c</name>
+    </fields>
+    <fields>
+        <label><!-- ShipPostalCode --></label>
+        <name>ShipPostalCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- ShipRegion --></label>
+        <name>ShipRegion__c</name>
+    </fields>
+    <fields>
+        <label><!-- ShipVia --></label>
+        <name>ShipVia__c</name>
+    </fields>
+    <fields>
+        <label><!-- ShippedDate --></label>
+        <name>ShippedDate__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

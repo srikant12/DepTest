@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>Search_My_Feed</defaultLandingTab>
+    <label>Search My Feed</label>
+    <logo>SharedDocuments/Chatter_Labs.jpg</logo>
+    <tab>Search_My_Feed</tab>
+    <tab>Interview__c</tab>
+    <tab>My_Interviews</tab>
+    <tab>Concur</tab>
+    <tab>Top_Client__c</tab>
+    <tab>RM__c</tab>
+    <tab>Observation__c</tab>
+    <tab>Apex_Sharing_Test__c</tab>
+    <tab>EncryptTest__c</tab>
+    <tab>iOrder__c</tab>
+    <tab>Driver__c</tab>
+    <tab>CommunityPublic</tab>
+    <tab>TimeCapture__c</tab>
+    <tab>VFORCE</tab>
+    <tab>ChildOfOppProd__c</tab>
+    <tab>OO1__x</tab>
+    <tab>Orders__x</tab>
+    <tab>Schema</tab>
+    <tab>ProjMgrs__c</tab>
+    <tab>LatestAccounts</tab>
+</CustomApplication>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>BestReplySelectedById</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Origin</fullName>
+        <picklist>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <recordTypes>
+        <fullName>Record_type_for_community_09a3000000052cKAAQ_entity_Question</fullName>
+        <active>true</active>
+        <description>Record type used to associate Question with a specific community</description>
+        <label>Hardware: Question Record Type</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Record_type_for_community_09a3000000052cPAAQ_entity_Question</fullName>
+        <active>true</active>
+        <description>Record type used to associate Question with a specific community</description>
+        <label>Services: Question Record Type</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Record_type_for_community_09a3000000052cUAAQ_entity_Question</fullName>
+        <active>true</active>
+        <description>Record type used to associate Question with a specific community</description>
+        <label>Electronics: Question Record Type</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Record_type_for_community_09a30000000D5RsAAK_entity_Question</fullName>
+        <active>true</active>
+        <description>Record type used to associate Question with a specific community</description>
+        <label>*Company-wide Ideas*: Question Record Type</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Record_type_for_community_09a30000000D5RtAAK_entity_Question</fullName>
+        <active>true</active>
+        <description>Record type used to associate Question with a specific community</description>
+        <label>*My Portal Ideas*: Question Record Type</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Record_type_for_community_09a30000000D5RuAAK_entity_Question</fullName>
+        <active>true</active>
+        <description>Record type used to associate Question with a specific community</description>
+        <label>Announcements: Question Record Type</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Record_type_for_community_09a30000000D5RvAAK_entity_Question</fullName>
+        <active>true</active>
+        <description>Record type used to associate Question with a specific community</description>
+        <label>CRM Rollout: Question Record Type</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Record_type_for_community_09a30000000D5RwAAK_entity_Question</fullName>
+        <active>true</active>
+        <description>Record type used to associate Question with a specific community</description>
+        <label>Green Office Initiative - Reduce, Reuse, Recycle: Question Record Type</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Record_type_for_community_09a30000000D5RxAAK_entity_Question</fullName>
+        <active>true</active>
+        <description>Record type used to associate Question with a specific community</description>
+        <label>Software: Question Record Type</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Record_type_for_community_09a30000000D5RyAAK_entity_Question</fullName>
+        <active>true</active>
+        <description>Record type used to associate Question with a specific community</description>
+        <label>My Service Idea: Question Record Type</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Record_type_for_community_09a30000000D5RzAAK_entity_Question</fullName>
+        <active>true</active>
+        <description>Record type used to associate Question with a specific community</description>
+        <label>My Sales Idea: Question Record Type</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Record_type_for_community_09a30000000D5S0AAK_entity_Question</fullName>
+        <active>true</active>
+        <description>Record type used to associate Question with a specific community</description>
+        <label>My IT Idea: Question Record Type</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Record_type_for_community_09a30000000D5S1AAK_entity_Question</fullName>
+        <active>true</active>
+        <description>Record type used to associate Question with a specific community</description>
+        <label>My Foundation Idea: Question Record Type</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Record_type_for_community_09a30000000D5S2AAK_entity_Question</fullName>
+        <active>true</active>
+        <description>Record type used to associate Question with a specific community</description>
+        <label>My Marketing Idea: Question Record Type</label>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>QUESTION.TITLE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>QUESTION.BODY</customTabListAdditionalFields>
+        <customTabListAdditionalFields>QUESTION.CREATED_BY_NICKNAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>COMMUNITY.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>QUESTION.CREATED_DATE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>QUESTION.HAS_BEST_REPLY</customTabListAdditionalFields>
+        <customTabListAdditionalFields>QUESTION.NUM_REPLIES</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>QUESTION.TITLE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>QUESTION.BODY</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>COMMUNITY.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>QUESTION.CREATED_BY_NICKNAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>QUESTION.HAS_BEST_REPLY</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>QUESTION.NUM_REPLIES</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+</CustomObject>

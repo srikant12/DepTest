@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>rsrikant@salesforce.com</contactEmail>
+    <label>RESTBDG</label>
+    <oauthConfig>
+        <callbackUrl>https://srbadge.my.salesforce.com/services/oauth2/callback</callbackUrl>
+        <consumerKey>3MVG9xOCXq4ID1uFAbAcRP2HOklqyeol4KFxm1FJiPXs4UmG7fvG9asq4svR9CmE1IKMUzrXx7FJIPWUC6obY</consumerKey>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>Full</scopes>
+        <scopes>Chatter</scopes>
+        <scopes>CustomApplications</scopes>
+        <scopes>RefreshToken</scopes>
+        <scopes>OpenID</scopes>
+        <scopes>CustomPermissions</scopes>
+    </oauthConfig>
+</ConnectedApp>

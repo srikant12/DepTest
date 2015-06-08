@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Jump start your way to userdom</description>
+    <internalUseOnly>false</internalUseOnly>
+    <name>Quick Start Guide.pdf</name>
+    <public>true</public>
+</Document>

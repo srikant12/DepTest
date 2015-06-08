@@ -1,0 +1,19 @@
+<apex:page sidebar="false">
+{!$User.FirstName} {!$User.LastName}
+{!IF(DAY(TODAY())>14, 'After the 14th', 'On or before 14th')}
+<apex:form >
+<apex:pageBlock helpTitle="HT" helpURL="https://www.google.com">
+ <apex:pageBlockSection title="I am a teapot" columns="4">
+  <apex:outputText >Hello World 1</apex:outputText>
+    <apex:outputText >Hello World 2</apex:outputText>
+    
+ </apex:pageBlockSection>
+ <apex:pageBlockSection title="I am a coffeepot">
+  Coffe Pot
+ </apex:pageBlockSection>
+ <apex:pageBlockButtons >
+ <apex:commandButton action="{!save}" value="Save"/>
+ </apex:PageBlockButtons>
+</apex:pageblock>
+</apex:form>
+</apex:page>

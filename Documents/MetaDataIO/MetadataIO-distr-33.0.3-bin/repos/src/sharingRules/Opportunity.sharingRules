@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>Grant_Access_to_EAST_SALES</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Grant read only access to east sales</description>
+        <label>Grant Access to EAST SALES</label>
+        <sharedTo>
+            <role>EastSales</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Sales_Reps</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

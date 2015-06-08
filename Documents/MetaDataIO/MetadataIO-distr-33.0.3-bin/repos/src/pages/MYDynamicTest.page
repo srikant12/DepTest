@@ -1,0 +1,7 @@
+<apex:page standardController="Opportunity" extensions="OpportunityExt">
+    <apex:form >
+   <apex:outputLabel value="{!$ObjectType.Opportunity.fields.Description.label}"/> 
+      <apex:outputLabel value="{!$ObjectType.Opportunity.fields.Description.name}"/> 
+         <apex:outputLabel value="{!$ObjectType.Opportunity.fields.Description.type}"/> 
+</apex:form>
+</apex:page>

@@ -1,0 +1,39 @@
+<apex:page controller="JSremoteTestController">
+    <script type="text/javascript">
+    var contacts;
+function contactSearch() 
+{
+   alert ('In contact search');
+    JSremoteTestController.findContacts('H',handleContacts);
+    
+    //Visualforce.remoting.Manager.invokeAction(
+    //    '{!$RemoteAction.JSremoteTestController.findContacts}','dd',
+    //    handleContacts
+    //    );
+    //    alert ('after contact search');
+}
+    
+function handleContacts(result, event) {
+  if(event.type == 'exception') {
+    alert(event.message);
+  } else {
+    contacts = result;
+    showContacts();
+  }
+}
+    
+function showContacts() {
+var newList = "";
+for(var i = 0; i < contacts.length; i++) {
+    newList += "<button>"+contacts[i].Name+"</button>";
+}
+</script>
+
+<apex:form >    
+
+    <apex:commandButton value="Suchen" onClick="contactSearch();return false;">Search Contacts</apex:commandbutton>
+
+</apex:form>
+
+
+</apex:page>

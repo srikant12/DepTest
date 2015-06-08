@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>FAQ</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>FAQs</value>
+    </caseValues>
+    <fields>
+        <label><!-- Procedure --></label>
+        <name>Procedure__c</name>
+    </fields>
+    <fields>
+        <label><!-- Short Description --></label>
+        <name>Short_Description__c</name>
+    </fields>
+    <fields>
+        <name>ValidationStatus</name>
+        <picklistValues>
+            <masterLabel>Not Validated</masterLabel>
+            <translation><!-- Not Validated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Validated</masterLabel>
+            <translation><!-- Validated --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>FAQ Layout</layout>
+        <sections>
+            <label><!-- Procedure --></label>
+            <section>Procedure</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,27 @@
+<apex:page controller="ContactRemote">
+    <script type="text/javascript">
+	function contactWho(name) 
+    {	
+    	ContactRemote.findContacts (name, function(result, event)
+        {
+           if (event.status)
+        	{
+                alert ('success');
+                document.getElementById ("result").innerHTML = result.Phone;
+            }
+            else alert ('failed');
+        });
+    }
+            
+
+    </script>    
+    
+    <button onclick="contactWho('gg GG');">
+        SAY
+    </button>
+    <div id="result">
+        [Results]
+    </div>
+        
+    
+</apex:page>

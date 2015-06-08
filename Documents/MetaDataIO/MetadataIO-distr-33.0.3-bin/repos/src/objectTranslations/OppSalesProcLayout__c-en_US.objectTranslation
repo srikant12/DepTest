@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>OpportunitySalesProcessLayout</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>OpportunitySalesProcessLayout</value>
+    </caseValues>
+    <fields>
+        <label><!-- ComponentApiName --></label>
+        <name>ComponentApiName__c</name>
+    </fields>
+    <fields>
+        <label><!-- ComponentOrder --></label>
+        <name>ComponentOrder__c</name>
+    </fields>
+    <fields>
+        <label><!-- ComponentType --></label>
+        <name>ComponentType__c</name>
+    </fields>
+    <fields>
+        <label><!-- OpportunityStage --></label>
+        <name>OpportunityStage__c</name>
+    </fields>
+    <fields>
+        <label><!-- ReadOnly --></label>
+        <name>ReadOnly__c</name>
+    </fields>
+    <fields>
+        <label><!-- RecordType --></label>
+        <name>RecordType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Required --></label>
+        <name>Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- SectionHeader --></label>
+        <name>SectionHeader__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

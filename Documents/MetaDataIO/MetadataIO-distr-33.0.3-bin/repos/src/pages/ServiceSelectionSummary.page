@@ -1,0 +1,37 @@
+<apex:page controller="AVFAccountController">
+<apex:pageMessages />
+<script>
+function confirmCancel() 
+{
+var isCancel = confirm ("Are you sure ?");
+if (isCancel) return true;
+    return false;
+}    
+</script>
+    <apex:form >
+    	<apex:pageBlock title="Service Selection Summary">
+		<apex:pageBlockSection title="Account Info">
+            <apex:outputField value="{!account.Name}"></apex:outputField>
+		</apex:pageBlockSection>
+
+		<apex:pageBlockSection title="Contact Info">
+            <apex:outputField value="{!contact.FirstName}"></apex:outputField>
+            <apex:outputField value="{!contact.LastName}"></apex:outputField>
+			<apex:outputField value="{!contact.email}"/>
+        </apex:pageBlockSection>
+            
+		<apex:pageBlockSection title="Service Selection">
+            <apex:outputField value="{!service.Service_Ticket_Type__c}"/>
+            <apex:outputField value="{!service.Billing_Month__c}"></apex:outputField>
+            <apex:outputField value="{!service.Last_Payment_Date__c}"></apex:outputField>
+        </apex:pageBlockSection>            
+            
+       <apex:pageBlockButtons >
+
+            <apex:commandButton action="{!step4}" value="Save"/>
+            <apex:commandButton action="{!cancel}" value="Cancel"/>            
+       </apex:pageBlockButtons>    
+        </apex:pageBlock>
+    
+    </apex:form>
+</apex:page>

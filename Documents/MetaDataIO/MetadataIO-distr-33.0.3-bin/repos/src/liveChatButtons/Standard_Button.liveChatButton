@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LiveChatButton xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deployments/>
+    <enableQueue>true</enableQueue>
+    <isActive>true</isActive>
+    <label>Standard Button</label>
+    <offlineImage>LA_Offline</offlineImage>
+    <onlineImage>LA_Online</onlineImage>
+    <optionsCustomRoutingIsEnabled>false</optionsCustomRoutingIsEnabled>
+    <optionsHasInviteAfterAccept>false</optionsHasInviteAfterAccept>
+    <optionsHasInviteAfterReject>false</optionsHasInviteAfterReject>
+    <optionsHasRerouteDeclinedRequest>false</optionsHasRerouteDeclinedRequest>
+    <optionsIsAutoAccept>false</optionsIsAutoAccept>
+    <optionsIsInviteAutoRemove>false</optionsIsInviteAutoRemove>
+    <overallQueueLength>5</overallQueueLength>
+    <postChatPage>LiveAgentPostChatSurvey</postChatPage>
+    <preChatFormPage>LiveAgentPreChatForm</preChatFormPage>
+    <routingType>Choice</routingType>
+    <site>Public_Knowledgebase</site>
+    <skills>
+        <skill>Tier_1_Support</skill>
+    </skills>
+    <type>Standard</type>
+    <windowLanguage>en_US</windowLanguage>
+</LiveChatButton>

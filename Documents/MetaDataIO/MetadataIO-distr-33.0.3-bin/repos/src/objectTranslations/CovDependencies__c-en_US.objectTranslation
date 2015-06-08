@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>CovDependencies</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>CovDependencies</value>
+    </caseValues>
+    <fields>
+        <label><!-- CovType --></label>
+        <name>CovType__c</name>
+    </fields>
+    <fields>
+        <label><!-- depCov --></label>
+        <name>depCov__c</name>
+    </fields>
+    <fields>
+        <label><!-- minDep --></label>
+        <name>minDep__c</name>
+    </fields>
+    <fields>
+        <label><!-- state --></label>
+        <name>state__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

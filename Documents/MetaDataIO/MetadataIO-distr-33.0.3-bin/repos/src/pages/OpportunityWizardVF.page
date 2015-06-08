@@ -1,0 +1,5 @@
+<apex:page standardController="Opportunity" extensions="OpportunityExt">
+    <apex:form >
+    <apex:dynamicComponent componentValue="{!dynamicForm}"/>
+</apex:form>
+</apex:page>

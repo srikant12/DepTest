@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Technical Problem-Fix</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Technical Problem-Fix</value>
+    </caseValues>
+    <fields>
+        <name>ValidationStatus</name>
+        <picklistValues>
+            <masterLabel>Not Validated</masterLabel>
+            <translation><!-- Not Validated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Validated</masterLabel>
+            <translation><!-- Validated --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,3192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>CasePipelineSnapshot</members>
+        <members>OpportunityPipelineSnapshot</members>
+        <members>Project_Status_Analytic_Snapshot</members>
+        <name>AnalyticSnapshot</name>
+    </types>
+    <types>
+        <members>AVFAccountController</members>
+        <members>AccountContactController</members>
+        <members>AcctandOpptyTree</members>
+        <members>ActionPlanCreationController</members>
+        <members>ActionPlanDetailController</members>
+        <members>ActionPlanSelectController</members>
+        <members>ActionPlanTemplateCreationController</members>
+        <members>ActionPlanTemplateDetailController</members>
+        <members>ActionPlanTemplates</members>
+        <members>ActionPlansBatchTaskBuilder</members>
+        <members>ActionPlansBatchTaskBuilderTest</members>
+        <members>ActionPlansTaskTriggerUtilities</members>
+        <members>ActionPlansTaskTriggerUtilitiesTest</members>
+        <members>ActionPlansTestUtilities</members>
+        <members>ActionPlansUtilities</members>
+        <members>ActionPlansUtilitiesTest</members>
+        <members>ActivityTemplateController</members>
+        <members>ApexButtonPageController</members>
+        <members>ApexSecuTestHandler</members>
+        <members>BadgeWebService</members>
+        <members>CTIAnywhereExtension</members>
+        <members>CalculateBusinessHoursAgesTest</members>
+        <members>CaseDeflection</members>
+        <members>CaseDynamicController</members>
+        <members>CaseFSDynamicController</members>
+        <members>CaseSwarmRuleSetup</members>
+        <members>CaseSwarmTest</members>
+        <members>CaseToAccountFeedUpdateTest</members>
+        <members>ChangePasswordController</members>
+        <members>ChatterAnswers</members>
+        <members>ChatterAssassin</members>
+        <members>ChatterGraphJSController</members>
+        <members>ChatterGraphJSControllerTest</members>
+        <members>ChatterIdLookup</members>
+        <members>CommunitiesLandingController</members>
+        <members>CommunitiesLandingControllerTest</members>
+        <members>CommunitiesLoginController</members>
+        <members>CommunitiesLoginControllerTest</members>
+        <members>CommunitiesSelfRegConfirmController</members>
+        <members>CommunitiesSelfRegConfirmControllerTest</members>
+        <members>CommunitiesSelfRegController</members>
+        <members>CommunitiesSelfRegControllerTest</members>
+        <members>ConsoleDBLookup</members>
+        <members>ContactRemote</members>
+        <members>CustomerPortalWelcomeController</members>
+        <members>DynamicComponentExample</members>
+        <members>FeedPostSwarmRuleSetup</members>
+        <members>FeedPostSwarmTest</members>
+        <members>ForgotPasswordController</members>
+        <members>GoogleCharts</members>
+        <members>Integration</members>
+        <members>JSremoteTestController</members>
+        <members>LeadSwarmRuleSetup</members>
+        <members>LeadSwarmTest</members>
+        <members>LightningConnectQuickstart</members>
+        <members>LiveAgentChatController</members>
+        <members>Milestone1_Calendar_Item</members>
+        <members>Milestone1_Charts_GanttController</members>
+        <members>Milestone1_Charts_Gantt_Helper</members>
+        <members>Milestone1_Clone_Milestone_Controller</members>
+        <members>Milestone1_Clone_Project_Controller</members>
+        <members>Milestone1_Clone_Utility</members>
+        <members>Milestone1_Constants</members>
+        <members>Milestone1_Email_Handler</members>
+        <members>Milestone1_Email_Handler_Tst</members>
+        <members>Milestone1_Expense_Trigger_Tst</members>
+        <members>Milestone1_Expense_Trigger_Utility</members>
+        <members>Milestone1_Export_Project_Controller</members>
+        <members>Milestone1_Export_Project_Controller_Tst</members>
+        <members>Milestone1_General_Utility</members>
+        <members>Milestone1_GettingStartedController</members>
+        <members>Milestone1_Import_Exception</members>
+        <members>Milestone1_Import_Project_Controller</members>
+        <members>Milestone1_Import_Project_Controller_Tst</members>
+        <members>Milestone1_Milestone_Batch_Delete</members>
+        <members>Milestone1_Milestone_Batch_Update</members>
+        <members>Milestone1_Milestone_Trigger_Utility</members>
+        <members>Milestone1_Milestone_Values_Helper</members>
+        <members>Milestone1_Month</members>
+        <members>Milestone1_Move_Exception</members>
+        <members>Milestone1_Move_Milestone_Extension</members>
+        <members>Milestone1_Move_Task_Extension</members>
+        <members>Milestone1_One_Line_Controller</members>
+        <members>Milestone1_One_Liner_Controller_Tst</members>
+        <members>Milestone1_Project_Batch_Update</members>
+        <members>Milestone1_Project_Trigger_Utility</members>
+        <members>Milestone1_Summary2</members>
+        <members>Milestone1_Task_Chatter_Tst</members>
+        <members>Milestone1_Task_Trigger_Utility</members>
+        <members>Milestone1_TestProjectBuilder</members>
+        <members>Milestone1_Test_Clone</members>
+        <members>Milestone1_Test_Field_Values</members>
+        <members>Milestone1_Test_Import_Export</members>
+        <members>Milestone1_Test_Move</members>
+        <members>Milestone1_Test_Utility</members>
+        <members>Milestone1_Time_Trigger_Tst</members>
+        <members>Milestone1_Time_Trigger_Utility</members>
+        <members>Milestone1_XML_Export_Utility</members>
+        <members>Milestone1_XML_Export_Utility_Test</members>
+        <members>Milestone1_XML_Import_Utility</members>
+        <members>Milestone1_XML_Import_Utility_Test</members>
+        <members>Milestone1_repeatCon</members>
+        <members>MyNotesController</members>
+        <members>MyProfilePageController</members>
+        <members>OnboardTest</members>
+        <members>OppFutureTest</members>
+        <members>OpportunityExt</members>
+        <members>OpportunitySwarmTest</members>
+        <members>OppotunityBatchProcess</members>
+        <members>OpptySwarmRuleSetup</members>
+        <members>OrderShipInfo</members>
+        <members>PartnerPortalWelcomeController</members>
+        <members>PersonAccountController</members>
+        <members>PrintQTrigHdlr</members>
+        <members>PublicAccountController</members>
+        <members>QuickAccountContact</members>
+        <members>QuoteController</members>
+        <members>ReassignCaseController</members>
+        <members>SDO_Salesforce1</members>
+        <members>SDO_Salesforce1Test</members>
+        <members>SalesCoachControllerV2</members>
+        <members>SalesCoachSetup</members>
+        <members>SalesCoachUtil</members>
+        <members>SearchAndReplace</members>
+        <members>ShTrigHdlr</members>
+        <members>SimpleDynamicController</members>
+        <members>SiteLoginController</members>
+        <members>SiteRegisterController</members>
+        <members>SwarmHelper</members>
+        <members>SwarmTestUtility</members>
+        <members>TEGenController</members>
+        <members>TestActionFunction</members>
+        <members>TestGeoLocation</members>
+        <members>TestInterview</members>
+        <members>TestLightningConnectQuickstart</members>
+        <members>Test_ChatterAssassin</members>
+        <members>TickerDisplayController</members>
+        <members>TickerSetupController</members>
+        <members>TickerTest</members>
+        <members>UploadProductImage</members>
+        <members>WarehouseDataInstall</members>
+        <members>activityView</members>
+        <members>chatterConnector</members>
+        <members>chatterDashboard</members>
+        <members>chatterMessageHelper</members>
+        <members>chatterMessages</members>
+        <members>chatterTooltip</members>
+        <members>demoReset</members>
+        <members>email2Content</members>
+        <members>email2ContentTest</members>
+        <members>exampleCon</members>
+        <members>fieldCreatorController</members>
+        <members>followController</members>
+        <members>followObject</members>
+        <members>geoLocate2</members>
+        <members>iOrderControllerExtension</members>
+        <members>jiii</members>
+        <members>leadCallDownController</members>
+        <members>locController</members>
+        <members>lookUpAccountAnnotation</members>
+        <members>myInterviews</members>
+        <members>onboardingSalesforceCom</members>
+        <members>perfectionStandard</members>
+        <members>pkb_Controller</members>
+        <members>pkb_SettingsController</members>
+        <members>pkb_Test</members>
+        <members>portalresults</members>
+        <members>superSort</members>
+        <members>testAcctandOpptyTree</members>
+        <members>testAcctandOpptyTreeData</members>
+        <members>testPDW</members>
+        <members>updateAccountTallies</members>
+        <members>z_BatchableMetadataDump1</members>
+        <members>z_BatchableMetadataDump2</members>
+        <members>z_BatchableMetadataDump3</members>
+        <members>z_DescribeHelper</members>
+        <members>z_DumpFrontPageCont</members>
+        <members>z_MetadataSettingCont</members>
+        <members>z_SchedulableBatchableMetadataDump1</members>
+        <members>z_SchedulableBatchableMetadataDump2</members>
+        <members>z_SchedulableBatchableMetadataDump3</members>
+        <members>z_Test</members>
+        <members>z_Util</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>HierarchyTree</members>
+        <members>MIlestone1_Calendar_Full</members>
+        <members>Milestone1_Charts_GanttComponent</members>
+        <members>SiteFooter</members>
+        <members>SiteHeader</members>
+        <members>SiteLogin</members>
+        <members>SitePoweredBy</members>
+        <members>chatterTooltip</members>
+        <members>followObject</members>
+        <members>pkb_article</members>
+        <members>pkb_articleicons</members>
+        <members>pkb_articleview</members>
+        <members>pkb_categoryselect</members>
+        <members>pkb_contactus_buttons_article</members>
+        <members>pkb_css</members>
+        <members>pkb_featured</members>
+        <members>pkb_feedbackyesno</members>
+        <members>pkb_js</members>
+        <members>pkb_narrow</members>
+        <members>pkb_popular</members>
+        <members>pkb_related</members>
+        <members>pkb_results</members>
+        <members>pkb_search</members>
+        <name>ApexComponent</name>
+    </types>
+    <types>
+        <members>AVFAccountWizard</members>
+        <members>AccountContactPagination</members>
+        <members>AccountDisplay</members>
+        <members>AccountSummary</members>
+        <members>ActionPlanCreation</members>
+        <members>ActionPlanDetail</members>
+        <members>ActionPlanList</members>
+        <members>ActionPlanSelect</members>
+        <members>ActionPlanTemplateCreation</members>
+        <members>ActionPlanTemplateDetail</members>
+        <members>ActionPlanTemplateList</members>
+        <members>ActionPlansLandingPage</members>
+        <members>ActionTest</members>
+        <members>ActivityCreator</members>
+        <members>AjaxToolKitTest</members>
+        <members>AnswersHome</members>
+        <members>ApexButtonPage</members>
+        <members>ApexDynamicRendering</members>
+        <members>ArticleWithVideo</members>
+        <members>BandwidthExceeded</members>
+        <members>CaseDeflection</members>
+        <members>CaseFieldSet</members>
+        <members>CaseSwarmRuleSetup</members>
+        <members>ChangePassword</members>
+        <members>ChatterAnswersAgentView</members>
+        <members>ChatterAnswersCSS</members>
+        <members>ChatterAnswersChangePassword</members>
+        <members>ChatterAnswersForgotPassword</members>
+        <members>ChatterAnswersForgotPasswordConfirm</members>
+        <members>ChatterAnswersHelp</members>
+        <members>ChatterAnswersHomeTemplate</members>
+        <members>ChatterAnswersLogin</members>
+        <members>ChatterAnswersRegistration</members>
+        <members>ChatterGraph</members>
+        <members>ChatterGraphFrame</members>
+        <members>CommunitiesLanding</members>
+        <members>CommunitiesLogin</members>
+        <members>CommunitiesSelfReg</members>
+        <members>CommunitiesSelfRegConfirm</members>
+        <members>CommunitiesTemplate</members>
+        <members>Concur</members>
+        <members>Custom_Console_Chatter_Marquee</members>
+        <members>Custom_Console_Dashboards</members>
+        <members>CustomerPortalWelcome</members>
+        <members>DynamicVF</members>
+        <members>DynamicVF2</members>
+        <members>Electronics_main</members>
+        <members>Exception</members>
+        <members>FeedPostSwarmRuleSetup</members>
+        <members>FileNotFound</members>
+        <members>FlowFinishLocation</members>
+        <members>ForgotPassword</members>
+        <members>ForgotPasswordConfirm</members>
+        <members>GR_Setup_Guide</members>
+        <members>GenericLiveAgentCode</members>
+        <members>Geolocate</members>
+        <members>Geolocate2</members>
+        <members>GooGleMAP</members>
+        <members>GoogleCharts</members>
+        <members>GoogleChartsCP</members>
+        <members>Green_Rider</members>
+        <members>Hardware_main</members>
+        <members>HelloWorld</members>
+        <members>HierarchyTreePage</members>
+        <members>IdeasHome</members>
+        <members>InMaintenance</members>
+        <members>JSVFRemoteTest</members>
+        <members>LatestAccounts</members>
+        <members>LeadScore</members>
+        <members>LeadSwarmRuleSetup</members>
+        <members>Lead_Call_Down_Page</members>
+        <members>LightningConnectQuickstart</members>
+        <members>LiveAgentPostChatSurvey</members>
+        <members>LiveAgentPreChatForm</members>
+        <members>MAINTANENCE</members>
+        <members>MYDynamicTest</members>
+        <members>Milestone1_Calendar_Large</members>
+        <members>Milestone1_Charts_GanttMilestones</members>
+        <members>Milestone1_Charts_GanttTasks</members>
+        <members>Milestone1_Clone_Milestone</members>
+        <members>Milestone1_Clone_Project</members>
+        <members>Milestone1_Export_Project</members>
+        <members>Milestone1_GettingStarted</members>
+        <members>Milestone1_Import_Project</members>
+        <members>Milestone1_Move_Milestone</members>
+        <members>Milestone1_Move_Milestone_Detail</members>
+        <members>Milestone1_Move_Task</members>
+        <members>Milestone1_Move_Task_Detail</members>
+        <members>Milestone1_One_Line_Create</members>
+        <members>Milestone1_Post_Install_Instruction</members>
+        <members>Milestone1_Summary2</members>
+        <members>MyProfilePage</members>
+        <members>My_Interviews</members>
+        <members>My_Notes</members>
+        <members>My_Product_Idea_main</members>
+        <members>OpportunityWizardVF</members>
+        <members>OpptySwarmRuleSetup</members>
+        <members>OrderPage</members>
+        <members>PaginationTest</members>
+        <members>PartnerPortalSidebar</members>
+        <members>PartnerPortalWelcome</members>
+        <members>PersonAcctTest</members>
+        <members>PublicAccountVF</members>
+        <members>ReassignCase</members>
+        <members>RemoteContactTest</members>
+        <members>Reset_Demo</members>
+        <members>SDO_Salesforce1_Login_As</members>
+        <members>SalesCoachLauncher</members>
+        <members>SalesCoachV2</members>
+        <members>SearchMyFeed</members>
+        <members>ServiceSelection</members>
+        <members>ServiceSelectionSummary</members>
+        <members>Services_main</members>
+        <members>SiteLogin</members>
+        <members>SiteRegister</members>
+        <members>SiteRegisterConfirm</members>
+        <members>SiteTemplate</members>
+        <members>StdExceptionTemplate</members>
+        <members>SwarmRuleSaveSuccess</members>
+        <members>TEGen</members>
+        <members>TEGenThanks</members>
+        <members>TestActPage</members>
+        <members>TickerDisplay</members>
+        <members>TickerSetup</members>
+        <members>Unauthorized</members>
+        <members>UnderConstruction</members>
+        <members>UploadProductImage</members>
+        <members>WarehouseDataInstall</members>
+        <members>activityView</members>
+        <members>chatterAssassin</members>
+        <members>chatterConnector</members>
+        <members>chatterDashboard</members>
+        <members>chatterDirectory</members>
+        <members>chatterMessageHelper</members>
+        <members>chatterMessages</members>
+        <members>chatter_graph_css</members>
+        <members>chatter_graph_js</members>
+        <members>chatter_graph_json</members>
+        <members>cirrus_cti</members>
+        <members>cirrus_cti_css</members>
+        <members>fieldCreatorStep1</members>
+        <members>fieldCreatorStep2</members>
+        <members>iPhonePage</members>
+        <members>iPhoneStyleSheet</members>
+        <members>perfectionStandard</members>
+        <members>pkb_Home</members>
+        <members>pkb_RSS</members>
+        <members>pkb_Settings</members>
+        <members>pkb_Template</members>
+        <members>portalsearchresults</members>
+        <members>portalsidebarsearch</members>
+        <members>quote</members>
+        <members>salescoachsetup</members>
+        <members>updateAccountTallies</members>
+        <members>z_DumpFrontPage</members>
+        <members>z_DumpFrontResultPage</members>
+        <members>z_GettingStarted</members>
+        <members>z_MetadataSettingDeleteAll</members>
+        <members>z_MetadataSettingLoad</members>
+        <members>z_MetadataSettngDelete</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>ActionPlanTaskTrigger</members>
+        <members>ActionPlanTrigger</members>
+        <members>ApexSecuTest</members>
+        <members>CalculateBusinessHoursAges</members>
+        <members>CaseToAccountFeedUpdate</members>
+        <members>EmailTrigger</members>
+        <members>HandleOrderUpdate</members>
+        <members>InvoiceDefaultSetup</members>
+        <members>Milestone1_Expense_Trigger</members>
+        <members>Milestone1_Milestone_Trigger</members>
+        <members>Milestone1_Project_Trigger</members>
+        <members>Milestone1_Task_Trigger</members>
+        <members>Milestone1_Time_Trigger</members>
+        <members>MyDrvBdg</members>
+        <members>MyOppBadgeTrig</members>
+        <members>MyOppBdg123</members>
+        <members>PrintQueueUserTrg</members>
+        <members>SharingTrigger</members>
+        <members>StandardSLAEntitlements</members>
+        <members>caseSwarm</members>
+        <members>chatter_answers_question_escalation_to_case_trigger</members>
+        <members>completeFirstResponse</members>
+        <members>completeFirstResponseEmail</members>
+        <members>escalateCase</members>
+        <members>feedPostSwarm</members>
+        <members>leadSwarm</members>
+        <members>opptySwarm</members>
+        <members>postToRelatedAcct</members>
+        <members>updateMIlestone</members>
+        <members>updateNumOfEscalatedCases</members>
+        <members>updateNumOpenCases</members>
+        <members>updateTitle</members>
+        <members>updateUserFields</members>
+        <members>update_contact</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>AppSwitcher</members>
+        <members>Salesforce1</members>
+        <name>AppMenu</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ApprovalProcess</name>
+    </types>
+    <types>
+        <members>Case</members>
+        <members>Lead</members>
+        <name>AssignmentRules</name>
+    </types>
+    <types>
+        <members>Case</members>
+        <members>Lead</members>
+        <name>AutoResponseRules</name>
+    </types>
+    <types>
+        <members>DemoAdapter</members>
+        <name>CallCenter</name>
+    </types>
+    <types>
+        <members>*Company-wide Ideas*</members>
+        <members>*My Portal Ideas*</members>
+        <members>Announcements</members>
+        <members>CRM Rollout</members>
+        <members>Electronics</members>
+        <members>Green Office Initiative - Reduce%2C Reuse%2C Recycle</members>
+        <members>Hardware</members>
+        <members>My Foundation Idea</members>
+        <members>My IT Idea</members>
+        <members>My Marketing Idea</members>
+        <members>My Sales Idea</members>
+        <members>My Service Idea</members>
+        <members>Services</members>
+        <members>Software</members>
+        <name>Community</name>
+    </types>
+    <types>
+        <members>CanvasTest</members>
+        <members>Concur</members>
+        <members>GoogleCanvas</members>
+        <members>RESTBDG</members>
+        <members>SRBADGE</members>
+        <members>immenseOcean</members>
+        <members>pacific_beach_8133</members>
+        <members>rsrik_canvas1</members>
+        <members>warm_plains_9208</members>
+        <name>ConnectedApp</name>
+    </types>
+    <types>
+        <members>https_srik_dev_ed_my_salesforce_com</members>
+        <name>CorsWhitelistOrigin</name>
+    </types>
+    <types>
+        <members>BugTrackingQA</members>
+        <members>Call_Center_Knowledge</members>
+        <members>ChannelFunds</members>
+        <members>ChannelPlans</members>
+        <members>Chatter_Graph</members>
+        <members>Entitlements</members>
+        <members>ExpenseReports</members>
+        <members>External_Orders</members>
+        <members>Force_com</members>
+        <members>GoogleAdWords</members>
+        <members>Green_Rider</members>
+        <members>Pollzter</members>
+        <members>Project_Mgmt_Labs</members>
+        <members>Recruiting</members>
+        <members>Search_My_Feed</members>
+        <members>Warehouse</members>
+        <members>standard__AllTabSet</members>
+        <members>standard__AppLauncher</members>
+        <members>standard__Chatter</members>
+        <members>standard__Community</members>
+        <members>standard__Content</members>
+        <members>standard__Marketing</members>
+        <members>standard__Platform</members>
+        <members>standard__Sales</members>
+        <members>standard__Service</members>
+        <members>standard__ServiceConsole</members>
+        <members>standard__Sites</members>
+        <members>z_MetadataDumpTool</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>AgentStats</members>
+        <members>ChatterMarquee</members>
+        <members>MyNotes</members>
+        <name>CustomApplicationComponent</name>
+    </types>
+    <types>
+        <members>CustomLabels</members>
+        <name>CustomLabels</name>
+    </types>
+    <types>
+        <members>APTTaskTemplate__c</members>
+        <members>APTaskTemplate__c</members>
+        <members>Account</members>
+        <members>AccountCleanInfo</members>
+        <members>AccountContactRole</members>
+        <members>ActionPlanTemplate__c</members>
+        <members>ActionPlan__c</members>
+        <members>Activity</members>
+        <members>Activity_Template_Line__c</members>
+        <members>Activity_Template__c</members>
+        <members>ApexBadgeCryptoKey__c</members>
+        <members>Apex_Sharing_Test__c</members>
+        <members>Asset</members>
+        <members>BenefitOfOmega__kav</members>
+        <members>CTIAnywhere__c</members>
+        <members>Campaign</members>
+        <members>CampaignMember</members>
+        <members>Candidate__c</members>
+        <members>Case</members>
+        <members>CaseContactRole</members>
+        <members>CaseMilestone</members>
+        <members>Case_Pipeline_Snapshot__c</members>
+        <members>Case_Swarm_Rule__c</members>
+        <members>Chatter_Marquee__c</members>
+        <members>Chatter_Message_Recipient__c</members>
+        <members>Chatter_Message__c</members>
+        <members>ChildOfOppProd__c</members>
+        <members>Claims__c</members>
+        <members>Console_Dashboard__c</members>
+        <members>Contact</members>
+        <members>ContactCleanInfo</members>
+        <members>ContentVersion</members>
+        <members>Contract</members>
+        <members>ContractContactRole</members>
+        <members>ContractLineItem</members>
+        <members>Contract_Renewal__c</members>
+        <members>CovDependencies__c</members>
+        <members>Customer_Portal_Savings_Calculator__c</members>
+        <members>Customers__x</members>
+        <members>DEMODATA__c</members>
+        <members>DandBCompany</members>
+        <members>Data_sfga_header__c</members>
+        <members>DateShifter__c</members>
+        <members>Demo_Overview__c</members>
+        <members>Driver__c</members>
+        <members>DuplicateRecordItem</members>
+        <members>DuplicateRecordSet</members>
+        <members>Employment_Website__c</members>
+        <members>EncryptTest__c</members>
+        <members>Entitlement</members>
+        <members>EntitlementContact</members>
+        <members>Event</members>
+        <members>FAQ__kav</members>
+        <members>FeedItem</members>
+        <members>Feed_Post_Swarm_Rule__c</members>
+        <members>Feedback__c</members>
+        <members>ForecastingAdjustment</members>
+        <members>ForecastingCategoryMapping</members>
+        <members>ForecastingOwnerAdjustment</members>
+        <members>ForecastingQuota</members>
+        <members>ForecastingTypeToCategory</members>
+        <members>Green_Rider_Settings__c</members>
+        <members>How_To__kav</members>
+        <members>Idea</members>
+        <members>Idea_Issues__c</members>
+        <members>Idea_Milestone__c</members>
+        <members>Idea_Team__c</members>
+        <members>Ideas_Projects__c</members>
+        <members>InsCoverage__c</members>
+        <members>InsuranceCoverageTypes__c</members>
+        <members>Interview__c</members>
+        <members>Invoice_Example__c</members>
+        <members>Invoice__c</members>
+        <members>Issue__c</members>
+        <members>Job_Application__c</members>
+        <members>Lead</members>
+        <members>LeadCleanInfo</members>
+        <members>Lead_Swarm_Rule__c</members>
+        <members>Line_Item__c</members>
+        <members>LiveAgentSession</members>
+        <members>LiveChatTranscript</members>
+        <members>LiveChatTranscriptEvent</members>
+        <members>LiveChatTranscriptSkill</members>
+        <members>LiveChatVisitor</members>
+        <members>MWA1_Answer__c</members>
+        <members>MWA1_Entry__c</members>
+        <members>MWA1_Submission__c</members>
+        <members>MWA1_Survey__c</members>
+        <members>Macro</members>
+        <members>MacroAction</members>
+        <members>MacroInstruction</members>
+        <members>Merchandise__c</members>
+        <members>Milestone1_Expense__c</members>
+        <members>Milestone1_Log__c</members>
+        <members>Milestone1_Milestone__c</members>
+        <members>Milestone1_Project__c</members>
+        <members>Milestone1_Settings__c</members>
+        <members>Milestone1_Task__c</members>
+        <members>Milestone1_Time__c</members>
+        <members>My_Notes__c</members>
+        <members>NewChl__c</members>
+        <members>OO1__x</members>
+        <members>Observation__c</members>
+        <members>OppSalesProcLayout__c</members>
+        <members>OppWSURL__c</members>
+        <members>Opportunity</members>
+        <members>OpportunityCompetitor</members>
+        <members>OpportunityContactRole</members>
+        <members>OpportunityLineItem</members>
+        <members>OpportunityTeamMember</members>
+        <members>Opportunity_Note__c</members>
+        <members>Opportunity_Pipeline_Snapshot__c</members>
+        <members>Opportunity_Swarm_Rule__c</members>
+        <members>Order</members>
+        <members>OrderItem</members>
+        <members>Order_Details__x</members>
+        <members>Order_Line_Item__c</members>
+        <members>Orders__x</members>
+        <members>PKB_Article_Feedback_Deflection__c</members>
+        <members>PKB_Featured__c</members>
+        <members>PKB__c</members>
+        <members>PartnerRole</members>
+        <members>PersonAccount</members>
+        <members>Position__c</members>
+        <members>Pricebook2</members>
+        <members>PricebookEntry</members>
+        <members>Product2</members>
+        <members>ProjMgrs__c</members>
+        <members>Project_Snapshot__c</members>
+        <members>Question</members>
+        <members>Queue_Stat__c</members>
+        <members>QuickText</members>
+        <members>Quote</members>
+        <members>QuoteLineItem</members>
+        <members>RMA_Transaction__c</members>
+        <members>RMA__c</members>
+        <members>RM__c</members>
+        <members>Referrals__c</members>
+        <members>Related_Case__c</members>
+        <members>Related_Idea__c</members>
+        <members>Reply</members>
+        <members>Review__c</members>
+        <members>RidesAvailable__c</members>
+        <members>SFDC_520_Approval_Request__c</members>
+        <members>SFDC_520_QuoteLine__c</members>
+        <members>SFDC_520_Quote__c</members>
+        <members>SFDC_Bug__c</members>
+        <members>SFDC_Channel_Account_Plan__c</members>
+        <members>SFDC_Channel_Budget_Entry__c</members>
+        <members>SFDC_Channel_Budget__c</members>
+        <members>SFDC_Component__c</members>
+        <members>SFDC_Expense_Header__c</members>
+        <members>SFDC_Expense_Line_Item__c</members>
+        <members>SFDC_Feature_Request__c</members>
+        <members>SFDC_MDF_Claim__c</members>
+        <members>SFDC_MDF__c</members>
+        <members>SFDC_Objective_Opportunity_Association__c</members>
+        <members>SFDC_Objective__c</members>
+        <members>SFDC_Plan_Resource_Association__c</members>
+        <members>SFDC_Related_Bug__c</members>
+        <members>SFDC_Test_Case__c</members>
+        <members>Sales_Coach_Activity__c</members>
+        <members>Sales_Coach_Admin__c</members>
+        <members>Sales_Coach_Role__c</members>
+        <members>Sales_Coach_Section_Item__c</members>
+        <members>Sales_Coach_Section__c</members>
+        <members>Sales_Coach_Stage__c</members>
+        <members>Sales_Order_Custom__c</members>
+        <members>ServiceContract</members>
+        <members>Service__c</members>
+        <members>Shipment__c</members>
+        <members>Site</members>
+        <members>SocialPersona</members>
+        <members>Solution</members>
+        <members>Standard_How_To__kav</members>
+        <members>StateValues__c</members>
+        <members>Stop_Status__c</members>
+        <members>StreamingChannel</members>
+        <members>Task</members>
+        <members>Technical_Problem_Fix__kav</members>
+        <members>Territory2</members>
+        <members>Territory2Model</members>
+        <members>Ticker_Item__c</members>
+        <members>Ticker_Settings__c</members>
+        <members>TimeCapture__c</members>
+        <members>Time_Expense_Entry__c</members>
+        <members>Top_Client__c</members>
+        <members>Training_Course__c</members>
+        <members>Training_Registration__c</members>
+        <members>User</members>
+        <members>UserProvisioningRequest</members>
+        <members>UserTerritory2Association</members>
+        <members>Work_Order__c</members>
+        <members>data_sfga__c</members>
+        <members>data_sfga_camp__c</members>
+        <members>iOrder__c</members>
+        <members>z_ChildRelationship__c</members>
+        <members>z_FieldDescription__c</members>
+        <members>z_MetaDumpSetting__c</members>
+        <members>z_SObjectDescription__c</members>
+        <members>z_SchemaTemp__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>APTTaskTemplate__c-en_US</members>
+        <members>APTaskTemplate__c-en_US</members>
+        <members>Account-da</members>
+        <members>Account-de</members>
+        <members>Account-en_US</members>
+        <members>Account-es</members>
+        <members>Account-fi</members>
+        <members>Account-fr</members>
+        <members>Account-it</members>
+        <members>Account-ja</members>
+        <members>Account-ko</members>
+        <members>Account-nl_NL</members>
+        <members>Account-pt_BR</members>
+        <members>Account-ru</members>
+        <members>Account-sv</members>
+        <members>Account-th</members>
+        <members>Account-zh_CN</members>
+        <members>Account-zh_TW</members>
+        <members>ActionPlanTemplate__c-en_US</members>
+        <members>ActionPlan__c-en_US</members>
+        <members>Activity_Template_Line__c-en_US</members>
+        <members>Activity_Template__c-en_US</members>
+        <members>ApexBadgeCryptoKey__c-en_US</members>
+        <members>Apex_Sharing_Test__c-en_US</members>
+        <members>BenefitOfOmega__kav-en_US</members>
+        <members>CTIAnywhere__c-en_US</members>
+        <members>CampaignMember-da</members>
+        <members>CampaignMember-de</members>
+        <members>CampaignMember-es</members>
+        <members>CampaignMember-fi</members>
+        <members>CampaignMember-fr</members>
+        <members>CampaignMember-it</members>
+        <members>CampaignMember-ja</members>
+        <members>CampaignMember-ko</members>
+        <members>CampaignMember-nl_NL</members>
+        <members>CampaignMember-pt_BR</members>
+        <members>CampaignMember-ru</members>
+        <members>CampaignMember-sv</members>
+        <members>CampaignMember-th</members>
+        <members>CampaignMember-zh_CN</members>
+        <members>CampaignMember-zh_TW</members>
+        <members>Candidate__c-en_US</members>
+        <members>Case-da</members>
+        <members>Case-de</members>
+        <members>Case-es</members>
+        <members>Case-fi</members>
+        <members>Case-fr</members>
+        <members>Case-it</members>
+        <members>Case-ja</members>
+        <members>Case-ko</members>
+        <members>Case-nl_NL</members>
+        <members>Case-pt_BR</members>
+        <members>Case-ru</members>
+        <members>Case-sv</members>
+        <members>Case-th</members>
+        <members>Case-zh_CN</members>
+        <members>Case-zh_TW</members>
+        <members>Case_Pipeline_Snapshot__c-en_US</members>
+        <members>Case_Swarm_Rule__c-en_US</members>
+        <members>Chatter_Marquee__c-en_US</members>
+        <members>Chatter_Message_Recipient__c-en_US</members>
+        <members>Chatter_Message__c-en_US</members>
+        <members>ChildOfOppProd__c-en_US</members>
+        <members>Claims__c-en_US</members>
+        <members>Console_Dashboard__c-en_US</members>
+        <members>Contact-da</members>
+        <members>Contact-de</members>
+        <members>Contact-es</members>
+        <members>Contact-fi</members>
+        <members>Contact-fr</members>
+        <members>Contact-it</members>
+        <members>Contact-ja</members>
+        <members>Contact-ko</members>
+        <members>Contact-nl_NL</members>
+        <members>Contact-pt_BR</members>
+        <members>Contact-ru</members>
+        <members>Contact-sv</members>
+        <members>Contact-th</members>
+        <members>Contact-zh_CN</members>
+        <members>Contact-zh_TW</members>
+        <members>Contract_Renewal__c-en_US</members>
+        <members>CovDependencies__c-en_US</members>
+        <members>Customer_Portal_Savings_Calculator__c-en_US</members>
+        <members>Customers__x-en_US</members>
+        <members>DEMODATA__c-en_US</members>
+        <members>Data_sfga_header__c-en_US</members>
+        <members>DateShifter__c-en_US</members>
+        <members>Demo_Overview__c-en_US</members>
+        <members>Driver__c-en_US</members>
+        <members>ERD__ERD_Tool_Object__c-en_US</members>
+        <members>Employment_Website__c-en_US</members>
+        <members>EncryptTest__c-en_US</members>
+        <members>FAQ__kav-en_US</members>
+        <members>FN__FindNearby__c-en_US</members>
+        <members>Feed_Post_Swarm_Rule__c-en_US</members>
+        <members>Feedback__c-en_US</members>
+        <members>Field_Trip__Field_Analysis__c-en_US</members>
+        <members>Field_Trip__Object_Analysis__c-en_US</members>
+        <members>Green_Rider_Settings__c-en_US</members>
+        <members>How_To__kav-en_US</members>
+        <members>Idea_Issues__c-en_US</members>
+        <members>Idea_Milestone__c-en_US</members>
+        <members>Idea_Team__c-en_US</members>
+        <members>Ideas_Projects__c-en_US</members>
+        <members>InsCoverage__c-en_US</members>
+        <members>InsuranceCoverageTypes__c-en_US</members>
+        <members>Interview__c-en_US</members>
+        <members>Invoice_Example__c-en_US</members>
+        <members>Invoice__c-en_US</members>
+        <members>Issue__c-en_US</members>
+        <members>Job_Application__c-en_US</members>
+        <members>Lead-da</members>
+        <members>Lead-de</members>
+        <members>Lead-es</members>
+        <members>Lead-fi</members>
+        <members>Lead-fr</members>
+        <members>Lead-it</members>
+        <members>Lead-ja</members>
+        <members>Lead-ko</members>
+        <members>Lead-nl_NL</members>
+        <members>Lead-pt_BR</members>
+        <members>Lead-ru</members>
+        <members>Lead-sv</members>
+        <members>Lead-th</members>
+        <members>Lead-zh_CN</members>
+        <members>Lead-zh_TW</members>
+        <members>Lead_Swarm_Rule__c-en_US</members>
+        <members>Line_Item__c-en_US</members>
+        <members>MWA1_Answer__c-en_US</members>
+        <members>MWA1_Entry__c-en_US</members>
+        <members>MWA1_Submission__c-en_US</members>
+        <members>MWA1_Survey__c-en_US</members>
+        <members>Merchandise__c-en_US</members>
+        <members>Milestone1_Expense__c-en_US</members>
+        <members>Milestone1_Log__c-en_US</members>
+        <members>Milestone1_Milestone__c-en_US</members>
+        <members>Milestone1_Project__c-en_US</members>
+        <members>Milestone1_Settings__c-en_US</members>
+        <members>Milestone1_Task__c-en_US</members>
+        <members>Milestone1_Time__c-en_US</members>
+        <members>My_Notes__c-en_US</members>
+        <members>NewChl__c-en_US</members>
+        <members>Observation__c-en_US</members>
+        <members>OppSalesProcLayout__c-en_US</members>
+        <members>OppWSURL__c-en_US</members>
+        <members>Opportunity_Note__c-en_US</members>
+        <members>Opportunity_Pipeline_Snapshot__c-en_US</members>
+        <members>Opportunity_Swarm_Rule__c-en_US</members>
+        <members>Order_Details__x-en_US</members>
+        <members>Order_Line_Item__c-en_US</members>
+        <members>Orders__x-en_US</members>
+        <members>PKB_Article_Feedback_Deflection__c-en_US</members>
+        <members>PKB_Featured__c-en_US</members>
+        <members>PKB__c-en_US</members>
+        <members>Position__c-en_US</members>
+        <members>ProjMgrs__c-en_US</members>
+        <members>Project_Snapshot__c-en_US</members>
+        <members>Queue_Stat__c-en_US</members>
+        <members>RMA_Transaction__c-en_US</members>
+        <members>RMA__c-en_US</members>
+        <members>RM__c-en_US</members>
+        <members>Referrals__c-en_US</members>
+        <members>Related_Case__c-en_US</members>
+        <members>Related_Idea__c-en_US</members>
+        <members>Review__c-en_US</members>
+        <members>RidesAvailable__c-en_US</members>
+        <members>SFDC_520_Approval_Request__c-en_US</members>
+        <members>SFDC_520_QuoteLine__c-en_US</members>
+        <members>SFDC_520_Quote__c-en_US</members>
+        <members>SFDC_Bug__c-en_US</members>
+        <members>SFDC_Channel_Account_Plan__c-en_US</members>
+        <members>SFDC_Channel_Budget_Entry__c-en_US</members>
+        <members>SFDC_Channel_Budget__c-en_US</members>
+        <members>SFDC_Component__c-en_US</members>
+        <members>SFDC_Expense_Header__c-en_US</members>
+        <members>SFDC_Expense_Line_Item__c-en_US</members>
+        <members>SFDC_Feature_Request__c-en_US</members>
+        <members>SFDC_MDF_Claim__c-en_US</members>
+        <members>SFDC_MDF__c-en_US</members>
+        <members>SFDC_Objective_Opportunity_Association__c-en_US</members>
+        <members>SFDC_Objective__c-en_US</members>
+        <members>SFDC_Plan_Resource_Association__c-en_US</members>
+        <members>SFDC_Related_Bug__c-en_US</members>
+        <members>SFDC_Test_Case__c-en_US</members>
+        <members>Sales_Coach_Activity__c-en_US</members>
+        <members>Sales_Coach_Admin__c-en_US</members>
+        <members>Sales_Coach_Role__c-en_US</members>
+        <members>Sales_Coach_Section_Item__c-en_US</members>
+        <members>Sales_Coach_Section__c-en_US</members>
+        <members>Sales_Coach_Stage__c-en_US</members>
+        <members>Sales_Order_Custom__c-en_US</members>
+        <members>SchemaSurfer__SchemaSurferSettings__c-en_US</members>
+        <members>Service__c-en_US</members>
+        <members>Shipment__c-en_US</members>
+        <members>Solution-da</members>
+        <members>Solution-de</members>
+        <members>Solution-es</members>
+        <members>Solution-fi</members>
+        <members>Solution-fr</members>
+        <members>Solution-it</members>
+        <members>Solution-ja</members>
+        <members>Solution-ko</members>
+        <members>Solution-nl_NL</members>
+        <members>Solution-pt_BR</members>
+        <members>Solution-ru</members>
+        <members>Solution-sv</members>
+        <members>Solution-th</members>
+        <members>Solution-zh_CN</members>
+        <members>Solution-zh_TW</members>
+        <members>Standard_How_To__kav-en_US</members>
+        <members>StateValues__c-en_US</members>
+        <members>Stop_Status__c-en_US</members>
+        <members>Task-da</members>
+        <members>Task-de</members>
+        <members>Task-es</members>
+        <members>Task-fi</members>
+        <members>Task-fr</members>
+        <members>Task-it</members>
+        <members>Task-ja</members>
+        <members>Task-ko</members>
+        <members>Task-nl_NL</members>
+        <members>Task-pt_BR</members>
+        <members>Task-ru</members>
+        <members>Task-sv</members>
+        <members>Task-th</members>
+        <members>Task-zh_CN</members>
+        <members>Task-zh_TW</members>
+        <members>Technical_Problem_Fix__kav-en_US</members>
+        <members>Ticker_Item__c-en_US</members>
+        <members>Ticker_Settings__c-en_US</members>
+        <members>TimeCapture__c-en_US</members>
+        <members>Time_Expense_Entry__c-en_US</members>
+        <members>Top_Client__c-en_US</members>
+        <members>Training_Course__c-en_US</members>
+        <members>Training_Registration__c-en_US</members>
+        <members>Work_Order__c-en_US</members>
+        <members>ZMG__Zoomerang_Settings__c-en_US</members>
+        <members>ZMG__Zoomerang_Widget__c-en_US</members>
+        <members>data_sfga__c-en_US</members>
+        <members>data_sfga_camp__c-en_US</members>
+        <members>iOrder__c-en_US</members>
+        <members>sf4twitter__External_Systems_Credentials__c-en_US</members>
+        <members>sf4twitter__Fcbk_Credentials__c-da</members>
+        <members>sf4twitter__Fcbk_Credentials__c-de</members>
+        <members>sf4twitter__Fcbk_Credentials__c-en_US</members>
+        <members>sf4twitter__Fcbk_Credentials__c-es</members>
+        <members>sf4twitter__Fcbk_Credentials__c-fi</members>
+        <members>sf4twitter__Fcbk_Credentials__c-fr</members>
+        <members>sf4twitter__Fcbk_Credentials__c-it</members>
+        <members>sf4twitter__Fcbk_Credentials__c-ja</members>
+        <members>sf4twitter__Fcbk_Credentials__c-ko</members>
+        <members>sf4twitter__Fcbk_Credentials__c-nl_NL</members>
+        <members>sf4twitter__Fcbk_Credentials__c-pt_BR</members>
+        <members>sf4twitter__Fcbk_Credentials__c-ru</members>
+        <members>sf4twitter__Fcbk_Credentials__c-sv</members>
+        <members>sf4twitter__Fcbk_Credentials__c-th</members>
+        <members>sf4twitter__Fcbk_Credentials__c-zh_CN</members>
+        <members>sf4twitter__Fcbk_Credentials__c-zh_TW</members>
+        <members>sf4twitter__Fcbk_Page_Admin__c-da</members>
+        <members>sf4twitter__Fcbk_Page_Admin__c-de</members>
+        <members>sf4twitter__Fcbk_Page_Admin__c-en_US</members>
+        <members>sf4twitter__Fcbk_Page_Admin__c-es</members>
+        <members>sf4twitter__Fcbk_Page_Admin__c-fi</members>
+        <members>sf4twitter__Fcbk_Page_Admin__c-fr</members>
+        <members>sf4twitter__Fcbk_Page_Admin__c-it</members>
+        <members>sf4twitter__Fcbk_Page_Admin__c-ja</members>
+        <members>sf4twitter__Fcbk_Page_Admin__c-ko</members>
+        <members>sf4twitter__Fcbk_Page_Admin__c-nl_NL</members>
+        <members>sf4twitter__Fcbk_Page_Admin__c-pt_BR</members>
+        <members>sf4twitter__Fcbk_Page_Admin__c-ru</members>
+        <members>sf4twitter__Fcbk_Page_Admin__c-sv</members>
+        <members>sf4twitter__Fcbk_Page_Admin__c-th</members>
+        <members>sf4twitter__Fcbk_Page_Admin__c-zh_CN</members>
+        <members>sf4twitter__Fcbk_Page_Admin__c-zh_TW</members>
+        <members>sf4twitter__Fcbk_Page__c-da</members>
+        <members>sf4twitter__Fcbk_Page__c-de</members>
+        <members>sf4twitter__Fcbk_Page__c-en_US</members>
+        <members>sf4twitter__Fcbk_Page__c-es</members>
+        <members>sf4twitter__Fcbk_Page__c-fi</members>
+        <members>sf4twitter__Fcbk_Page__c-fr</members>
+        <members>sf4twitter__Fcbk_Page__c-it</members>
+        <members>sf4twitter__Fcbk_Page__c-ja</members>
+        <members>sf4twitter__Fcbk_Page__c-ko</members>
+        <members>sf4twitter__Fcbk_Page__c-nl_NL</members>
+        <members>sf4twitter__Fcbk_Page__c-pt_BR</members>
+        <members>sf4twitter__Fcbk_Page__c-ru</members>
+        <members>sf4twitter__Fcbk_Page__c-sv</members>
+        <members>sf4twitter__Fcbk_Page__c-th</members>
+        <members>sf4twitter__Fcbk_Page__c-zh_CN</members>
+        <members>sf4twitter__Fcbk_Page__c-zh_TW</members>
+        <members>sf4twitter__Fcbk_User__c-da</members>
+        <members>sf4twitter__Fcbk_User__c-de</members>
+        <members>sf4twitter__Fcbk_User__c-en_US</members>
+        <members>sf4twitter__Fcbk_User__c-es</members>
+        <members>sf4twitter__Fcbk_User__c-fi</members>
+        <members>sf4twitter__Fcbk_User__c-fr</members>
+        <members>sf4twitter__Fcbk_User__c-it</members>
+        <members>sf4twitter__Fcbk_User__c-ja</members>
+        <members>sf4twitter__Fcbk_User__c-ko</members>
+        <members>sf4twitter__Fcbk_User__c-nl_NL</members>
+        <members>sf4twitter__Fcbk_User__c-pt_BR</members>
+        <members>sf4twitter__Fcbk_User__c-ru</members>
+        <members>sf4twitter__Fcbk_User__c-sv</members>
+        <members>sf4twitter__Fcbk_User__c-th</members>
+        <members>sf4twitter__Fcbk_User__c-zh_CN</members>
+        <members>sf4twitter__Fcbk_User__c-zh_TW</members>
+        <members>sf4twitter__Twitter_Account__c-da</members>
+        <members>sf4twitter__Twitter_Account__c-de</members>
+        <members>sf4twitter__Twitter_Account__c-en_US</members>
+        <members>sf4twitter__Twitter_Account__c-es</members>
+        <members>sf4twitter__Twitter_Account__c-fi</members>
+        <members>sf4twitter__Twitter_Account__c-fr</members>
+        <members>sf4twitter__Twitter_Account__c-it</members>
+        <members>sf4twitter__Twitter_Account__c-ja</members>
+        <members>sf4twitter__Twitter_Account__c-ko</members>
+        <members>sf4twitter__Twitter_Account__c-nl_NL</members>
+        <members>sf4twitter__Twitter_Account__c-pt_BR</members>
+        <members>sf4twitter__Twitter_Account__c-ru</members>
+        <members>sf4twitter__Twitter_Account__c-sv</members>
+        <members>sf4twitter__Twitter_Account__c-th</members>
+        <members>sf4twitter__Twitter_Account__c-zh_CN</members>
+        <members>sf4twitter__Twitter_Account__c-zh_TW</members>
+        <members>sf4twitter__Twitter_Configuration__c-da</members>
+        <members>sf4twitter__Twitter_Configuration__c-de</members>
+        <members>sf4twitter__Twitter_Configuration__c-en_US</members>
+        <members>sf4twitter__Twitter_Configuration__c-es</members>
+        <members>sf4twitter__Twitter_Configuration__c-fi</members>
+        <members>sf4twitter__Twitter_Configuration__c-fr</members>
+        <members>sf4twitter__Twitter_Configuration__c-it</members>
+        <members>sf4twitter__Twitter_Configuration__c-ja</members>
+        <members>sf4twitter__Twitter_Configuration__c-ko</members>
+        <members>sf4twitter__Twitter_Configuration__c-nl_NL</members>
+        <members>sf4twitter__Twitter_Configuration__c-pt_BR</members>
+        <members>sf4twitter__Twitter_Configuration__c-ru</members>
+        <members>sf4twitter__Twitter_Configuration__c-sv</members>
+        <members>sf4twitter__Twitter_Configuration__c-th</members>
+        <members>sf4twitter__Twitter_Configuration__c-zh_CN</members>
+        <members>sf4twitter__Twitter_Configuration__c-zh_TW</members>
+        <members>sf4twitter__Twitter_Contributor__c-da</members>
+        <members>sf4twitter__Twitter_Contributor__c-de</members>
+        <members>sf4twitter__Twitter_Contributor__c-en_US</members>
+        <members>sf4twitter__Twitter_Contributor__c-es</members>
+        <members>sf4twitter__Twitter_Contributor__c-fi</members>
+        <members>sf4twitter__Twitter_Contributor__c-fr</members>
+        <members>sf4twitter__Twitter_Contributor__c-it</members>
+        <members>sf4twitter__Twitter_Contributor__c-ja</members>
+        <members>sf4twitter__Twitter_Contributor__c-ko</members>
+        <members>sf4twitter__Twitter_Contributor__c-nl_NL</members>
+        <members>sf4twitter__Twitter_Contributor__c-pt_BR</members>
+        <members>sf4twitter__Twitter_Contributor__c-ru</members>
+        <members>sf4twitter__Twitter_Contributor__c-sv</members>
+        <members>sf4twitter__Twitter_Contributor__c-th</members>
+        <members>sf4twitter__Twitter_Contributor__c-zh_CN</members>
+        <members>sf4twitter__Twitter_Contributor__c-zh_TW</members>
+        <members>sf4twitter__Twitter_Conversation__c-da</members>
+        <members>sf4twitter__Twitter_Conversation__c-de</members>
+        <members>sf4twitter__Twitter_Conversation__c-en_US</members>
+        <members>sf4twitter__Twitter_Conversation__c-es</members>
+        <members>sf4twitter__Twitter_Conversation__c-fi</members>
+        <members>sf4twitter__Twitter_Conversation__c-fr</members>
+        <members>sf4twitter__Twitter_Conversation__c-it</members>
+        <members>sf4twitter__Twitter_Conversation__c-ja</members>
+        <members>sf4twitter__Twitter_Conversation__c-ko</members>
+        <members>sf4twitter__Twitter_Conversation__c-nl_NL</members>
+        <members>sf4twitter__Twitter_Conversation__c-pt_BR</members>
+        <members>sf4twitter__Twitter_Conversation__c-ru</members>
+        <members>sf4twitter__Twitter_Conversation__c-sv</members>
+        <members>sf4twitter__Twitter_Conversation__c-th</members>
+        <members>sf4twitter__Twitter_Conversation__c-zh_CN</members>
+        <members>sf4twitter__Twitter_Conversation__c-zh_TW</members>
+        <members>sf4twitter__Twitter_Credentials__c-da</members>
+        <members>sf4twitter__Twitter_Credentials__c-de</members>
+        <members>sf4twitter__Twitter_Credentials__c-en_US</members>
+        <members>sf4twitter__Twitter_Credentials__c-es</members>
+        <members>sf4twitter__Twitter_Credentials__c-fi</members>
+        <members>sf4twitter__Twitter_Credentials__c-fr</members>
+        <members>sf4twitter__Twitter_Credentials__c-it</members>
+        <members>sf4twitter__Twitter_Credentials__c-ja</members>
+        <members>sf4twitter__Twitter_Credentials__c-ko</members>
+        <members>sf4twitter__Twitter_Credentials__c-nl_NL</members>
+        <members>sf4twitter__Twitter_Credentials__c-pt_BR</members>
+        <members>sf4twitter__Twitter_Credentials__c-ru</members>
+        <members>sf4twitter__Twitter_Credentials__c-sv</members>
+        <members>sf4twitter__Twitter_Credentials__c-th</members>
+        <members>sf4twitter__Twitter_Credentials__c-zh_CN</members>
+        <members>sf4twitter__Twitter_Credentials__c-zh_TW</members>
+        <members>sf4twitter__Twitter_Followers__c-da</members>
+        <members>sf4twitter__Twitter_Followers__c-de</members>
+        <members>sf4twitter__Twitter_Followers__c-en_US</members>
+        <members>sf4twitter__Twitter_Followers__c-es</members>
+        <members>sf4twitter__Twitter_Followers__c-fi</members>
+        <members>sf4twitter__Twitter_Followers__c-fr</members>
+        <members>sf4twitter__Twitter_Followers__c-it</members>
+        <members>sf4twitter__Twitter_Followers__c-ja</members>
+        <members>sf4twitter__Twitter_Followers__c-ko</members>
+        <members>sf4twitter__Twitter_Followers__c-nl_NL</members>
+        <members>sf4twitter__Twitter_Followers__c-pt_BR</members>
+        <members>sf4twitter__Twitter_Followers__c-ru</members>
+        <members>sf4twitter__Twitter_Followers__c-sv</members>
+        <members>sf4twitter__Twitter_Followers__c-th</members>
+        <members>sf4twitter__Twitter_Followers__c-zh_CN</members>
+        <members>sf4twitter__Twitter_Followers__c-zh_TW</members>
+        <members>sf4twitter__Twitter_Public_Configuration__c-da</members>
+        <members>sf4twitter__Twitter_Public_Configuration__c-de</members>
+        <members>sf4twitter__Twitter_Public_Configuration__c-en_US</members>
+        <members>sf4twitter__Twitter_Public_Configuration__c-es</members>
+        <members>sf4twitter__Twitter_Public_Configuration__c-fi</members>
+        <members>sf4twitter__Twitter_Public_Configuration__c-fr</members>
+        <members>sf4twitter__Twitter_Public_Configuration__c-it</members>
+        <members>sf4twitter__Twitter_Public_Configuration__c-ja</members>
+        <members>sf4twitter__Twitter_Public_Configuration__c-ko</members>
+        <members>sf4twitter__Twitter_Public_Configuration__c-nl_NL</members>
+        <members>sf4twitter__Twitter_Public_Configuration__c-pt_BR</members>
+        <members>sf4twitter__Twitter_Public_Configuration__c-ru</members>
+        <members>sf4twitter__Twitter_Public_Configuration__c-sv</members>
+        <members>sf4twitter__Twitter_Public_Configuration__c-th</members>
+        <members>sf4twitter__Twitter_Public_Configuration__c-zh_CN</members>
+        <members>sf4twitter__Twitter_Public_Configuration__c-zh_TW</members>
+        <members>sf4twitter__Twitter_Public_Scheduler_Interval__c-da</members>
+        <members>sf4twitter__Twitter_Public_Scheduler_Interval__c-de</members>
+        <members>sf4twitter__Twitter_Public_Scheduler_Interval__c-en_US</members>
+        <members>sf4twitter__Twitter_Public_Scheduler_Interval__c-es</members>
+        <members>sf4twitter__Twitter_Public_Scheduler_Interval__c-fi</members>
+        <members>sf4twitter__Twitter_Public_Scheduler_Interval__c-fr</members>
+        <members>sf4twitter__Twitter_Public_Scheduler_Interval__c-it</members>
+        <members>sf4twitter__Twitter_Public_Scheduler_Interval__c-ja</members>
+        <members>sf4twitter__Twitter_Public_Scheduler_Interval__c-ko</members>
+        <members>sf4twitter__Twitter_Public_Scheduler_Interval__c-nl_NL</members>
+        <members>sf4twitter__Twitter_Public_Scheduler_Interval__c-pt_BR</members>
+        <members>sf4twitter__Twitter_Public_Scheduler_Interval__c-ru</members>
+        <members>sf4twitter__Twitter_Public_Scheduler_Interval__c-sv</members>
+        <members>sf4twitter__Twitter_Public_Scheduler_Interval__c-th</members>
+        <members>sf4twitter__Twitter_Public_Scheduler_Interval__c-zh_CN</members>
+        <members>sf4twitter__Twitter_Public_Scheduler_Interval__c-zh_TW</members>
+        <members>sf4twitter__Twitter_Scheduler__c-da</members>
+        <members>sf4twitter__Twitter_Scheduler__c-de</members>
+        <members>sf4twitter__Twitter_Scheduler__c-en_US</members>
+        <members>sf4twitter__Twitter_Scheduler__c-es</members>
+        <members>sf4twitter__Twitter_Scheduler__c-fi</members>
+        <members>sf4twitter__Twitter_Scheduler__c-fr</members>
+        <members>sf4twitter__Twitter_Scheduler__c-it</members>
+        <members>sf4twitter__Twitter_Scheduler__c-ja</members>
+        <members>sf4twitter__Twitter_Scheduler__c-ko</members>
+        <members>sf4twitter__Twitter_Scheduler__c-nl_NL</members>
+        <members>sf4twitter__Twitter_Scheduler__c-pt_BR</members>
+        <members>sf4twitter__Twitter_Scheduler__c-ru</members>
+        <members>sf4twitter__Twitter_Scheduler__c-sv</members>
+        <members>sf4twitter__Twitter_Scheduler__c-th</members>
+        <members>sf4twitter__Twitter_Scheduler__c-zh_CN</members>
+        <members>sf4twitter__Twitter_Scheduler__c-zh_TW</members>
+        <members>sf4twitter__Twitter_Search__c-da</members>
+        <members>sf4twitter__Twitter_Search__c-de</members>
+        <members>sf4twitter__Twitter_Search__c-en_US</members>
+        <members>sf4twitter__Twitter_Search__c-es</members>
+        <members>sf4twitter__Twitter_Search__c-fi</members>
+        <members>sf4twitter__Twitter_Search__c-fr</members>
+        <members>sf4twitter__Twitter_Search__c-it</members>
+        <members>sf4twitter__Twitter_Search__c-ja</members>
+        <members>sf4twitter__Twitter_Search__c-ko</members>
+        <members>sf4twitter__Twitter_Search__c-nl_NL</members>
+        <members>sf4twitter__Twitter_Search__c-pt_BR</members>
+        <members>sf4twitter__Twitter_Search__c-ru</members>
+        <members>sf4twitter__Twitter_Search__c-sv</members>
+        <members>sf4twitter__Twitter_Search__c-th</members>
+        <members>sf4twitter__Twitter_Search__c-zh_CN</members>
+        <members>sf4twitter__Twitter_Search__c-zh_TW</members>
+        <members>z_ChildRelationship__c-en_US</members>
+        <members>z_FieldDescription__c-ja</members>
+        <members>z_MetaDumpSetting__c-en_US</members>
+        <members>z_MetaDumpSetting__c-ja</members>
+        <members>z_SObjectDescription__c-ja</members>
+        <members>z_SchemaTemp__c-ja</members>
+        <name>CustomObjectTranslation</name>
+    </types>
+    <types>
+        <members>CP_Link_to_Edit_VF_APEX</members>
+        <members>CP_Replace_Center_Mktg_Message</members>
+        <members>CP_Replace_Left_Mktg_Message</members>
+        <members>CP_Replace_Right_Mktg_Message</members>
+        <members>Change_Logo_in_Quote_PDF</members>
+        <members>Chatter_Answers_Community</members>
+        <members>Configure_Ticker</members>
+        <members>Corporate_Intranet</members>
+        <members>Customer_Portal</members>
+        <members>Date_Shifter</members>
+        <members>Demo_Org_Overview</members>
+        <members>Edit_Homepage_Layout</members>
+        <members>Fields_Fast</members>
+        <members>Forecast_Generator</members>
+        <members>LiveAgent_Homepage</members>
+        <members>Login_as_Platform_User_Chris_Plus</members>
+        <members>Login_as_Sales_User_Cindy_Central</members>
+        <members>Login_as_Service_User_Tim_Service</members>
+        <members>Mass_Email_Contacts</members>
+        <members>Mass_Email_Leads</members>
+        <members>Mass_Email_Leads2</members>
+        <members>Mass_Mail_Contacts</members>
+        <members>Mass_Mail_Leads</members>
+        <members>Opp_Closed_Pipeline</members>
+        <members>Part_Portal_Link_to_Edit_VF_APEX</members>
+        <members>Part_Portal_Replace_Center_Mktg_Message</members>
+        <members>Part_Portal_Replace_Left_Mktg_Message</members>
+        <members>Part_Portal_Replace_Right_Mktg_Message</members>
+        <members>Partner_Portal</members>
+        <members>Public_Knowledgebase</members>
+        <members>REPLACE_Web_Forms_Portal_Logo</members>
+        <members>Replace_CUSTOM_APP_Logo</members>
+        <members>Replace_Company_Logo</members>
+        <members>Replace_Quote_Logo</members>
+        <members>Salesforce_Content</members>
+        <members>Self_Service_Portal</members>
+        <members>Set_up_SFDC_Google_Calendar_Sync</members>
+        <members>Simple_Web2Case</members>
+        <members>Simple_Web2Lead</members>
+        <members>SplashAnswer</members>
+        <members>SplashEntry</members>
+        <members>SplashSubmission</members>
+        <members>SplashSurvey</members>
+        <members>Task_Event_Generator</members>
+        <members>Test_Replce_Logo</members>
+        <members>Troubleshooting</members>
+        <members>User_Setup</members>
+        <name>CustomPageWebLink</name>
+    </types>
+    <types>
+        <members>Cirrus_Customers</members>
+        <members>Communities</members>
+        <members>MAINTANANCE</members>
+        <members>Public_Knowledgebase</members>
+        <members>TESTPUBLIC</members>
+        <name>CustomSite</name>
+    </types>
+    <types>
+        <members>Action_Plans</members>
+        <members>Activity_Template__c</members>
+        <members>Apex_Sharing_Test__c</members>
+        <members>CampaignCallList</members>
+        <members>Candidate__c</members>
+        <members>Case_Swarm_Rule_Wizard</members>
+        <members>Case_Swarm_Rule__c</members>
+        <members>Chatter_Assassin</members>
+        <members>Chatter_Connector</members>
+        <members>Chatter_Dashboard</members>
+        <members>Chatter_Directory</members>
+        <members>Chatter_Graph</members>
+        <members>Chatter_Messages</members>
+        <members>ChildOfOppProd__c</members>
+        <members>CommunityPublic</members>
+        <members>Concur</members>
+        <members>Data</members>
+        <members>Demo_Overview__c</members>
+        <members>Driver__c</members>
+        <members>Employment_Website__c</members>
+        <members>EncryptTest__c</members>
+        <members>Feed_Post_Swarm_Rule_Wizard</members>
+        <members>Feed_Post_Swarm_Rule__c</members>
+        <members>Getting_Started</members>
+        <members>Getting_Started_1</members>
+        <members>Green_Rider_App</members>
+        <members>Green_Rider_Settings__c</members>
+        <members>Green_Rider_Setup_Guide</members>
+        <members>Home</members>
+        <members>Ideas_Projects__c</members>
+        <members>Interview__c</members>
+        <members>Invoice__c</members>
+        <members>Issue__c</members>
+        <members>Job_Application__c</members>
+        <members>LatestAccounts</members>
+        <members>Lead_Swarm_Rule_Wizard</members>
+        <members>Lead_Swarm_Rule__c</members>
+        <members>Learning_Center</members>
+        <members>Merchandise__c</members>
+        <members>Milestone1_Import_Project_Template</members>
+        <members>Milestone1_Milestone__c</members>
+        <members>Milestone1_Project__c</members>
+        <members>Milestone_Calendar</members>
+        <members>My_Interviews</members>
+        <members>Observation__c</members>
+        <members>Opportunity_Swarm_Rule_Wizard</members>
+        <members>Opportunity_Swarm_Rule__c</members>
+        <members>Orders__x</members>
+        <members>PKB_2_Settings</members>
+        <members>PKB_Article_Feedback_Deflection__c</members>
+        <members>PKB_Featured__c</members>
+        <members>Perfect_Date_Wizard</members>
+        <members>Position__c</members>
+        <members>ProjMgrs__c</members>
+        <members>Quickstart</members>
+        <members>RMA__c</members>
+        <members>RM__c</members>
+        <members>Recruiting_App_Overview</members>
+        <members>Referrals__c</members>
+        <members>Reset_Demo</members>
+        <members>SFDC_Channel_Account_Plan__c</members>
+        <members>SFDC_Expense_Header__c</members>
+        <members>SFDC_Feature_Request__c</members>
+        <members>SFDC_MDF_Claim__c</members>
+        <members>SFDC_MDF__c</members>
+        <members>Sales_Coach_Setup</members>
+        <members>Sales_Order_Custom__c</members>
+        <members>Schema</members>
+        <members>Search_My_Feed</members>
+        <members>SnapShot</members>
+        <members>Summary</members>
+        <members>TeleSales</members>
+        <members>Ticker_Item__c</members>
+        <members>TimeCapture__c</members>
+        <members>Top_Client__c</members>
+        <members>VFORCE</members>
+        <members>WATCHIT</members>
+        <members>Wiki</members>
+        <members>Work_Order__c</members>
+        <members>iOrder__c</members>
+        <members>z_MetaDumpSetting__c</members>
+        <members>z_SObjectDescription__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Chatter_Adoption_Dashboards</members>
+        <members>Chatter_Adoption_Dashboards/Chatter_Adoption_Dashboard</members>
+        <members>DataQualityAnalysis</members>
+        <members>DataQualityAnalysis/AccountContactOpportunityDataQuality</members>
+        <members>DataQualityAnalysis/CampaignLeadActivityDataQuality</members>
+        <members>DataQualityAnalysis/CaseContractDataQuality</members>
+        <members>DataQualityAnalysis/HighLevelDataQualityAnalysis</members>
+        <members>Knowledge_Analytics</members>
+        <members>Knowledge_Dashboard</members>
+        <members>Knowledge_Dashboard/Knowledge</members>
+        <members>Knowledge_Dashboard/Knowledge_Publisher_Dashboard</members>
+        <members>Knowledge_Dashboard/Sales_Rep_Knowledge_Dashboard</members>
+        <members>Knowledge_Dashboard/Salesforce_Knowledge_Dashboard</members>
+        <members>Milestones_PM_Dashboards</members>
+        <members>Milestones_PM_Dashboards/Milestones_PM_Individual_Dashboard</members>
+        <members>Milestones_PM_Dashboards/Milestones_PM_Project_Snapshots</members>
+        <members>PublicDashboards</members>
+        <members>PublicDashboards/Top_Candidates_Dashboard</members>
+        <members>X10_Salesforce_Content</members>
+        <members>X10_Salesforce_Content/Core_Content_Dashboard</members>
+        <members>X9_Snapshot_Analytics_Dashboard</members>
+        <members>X9_Snapshot_Analytics_Dashboard/TrendingDashboard</members>
+        <members>x0CEODashboards</members>
+        <members>x0CEODashboards/CEODashboard</members>
+        <members>x1SalesDashboards_1</members>
+        <members>x1SalesDashboards_1/Inside_SalesRepsDashboard</members>
+        <members>x1SalesDashboards_1/Master_SalesExecutiveDashboard</members>
+        <members>x1SalesDashboards_1/Regional_Revenue_Dashboard</members>
+        <members>x1SalesDashboards_1/Sales_Activity_Dashbaord</members>
+        <members>x2MarketingDashboards</members>
+        <members>x2MarketingDashboards/LeadAnalysisDashboard04t30000000OlNo</members>
+        <members>x2MarketingDashboards/LeadFlowDashboardAppexchange</members>
+        <members>x2MarketingDashboards/MarketingExecutiveDashboard</members>
+        <members>x3CallCenterDashboards</members>
+        <members>x3CallCenterDashboards/ProductDevelopmentBugandFeatureRequestDashboard</members>
+        <members>x3CallCenterDashboards/ProductDevelopmentQualityAssuranceDashboard</members>
+        <members>x3CallCenterDashboards/SupportExecutiveDashboard</members>
+        <members>x3CallCenterDashboards04t30000000varR</members>
+        <members>x3CallCenterDashboards04t30000000varR/Case_Management_Filterable</members>
+        <members>x3CallCenterDashboards04t30000000varR/Telephony_Dashboard_Metrics_from_CDR_Data_Import04t30000000varR</members>
+        <members>x4UserSystemAdoptionDashboards</members>
+        <members>x4UserSystemAdoptionDashboards/x1AdoptionUsageFreefromAppexchange</members>
+        <members>x4UserSystemAdoptionDashboards/x2AdoptionDataQuality</members>
+        <members>x4UserSystemAdoptionDashboards/x3AdoptionBusinessPerformance</members>
+        <members>x7PartnerDashboards</members>
+        <members>x7PartnerDashboards/Budget</members>
+        <members>x7PartnerDashboards/ChannelFunds</members>
+        <members>x7PartnerDashboards/ChannelPlans</members>
+        <members>x7PartnerDashboards/PRMDashboardVPChannel</members>
+        <members>x8SalesforceIdeas</members>
+        <members>x8SalesforceIdeas/IdeasinActionDashboard</members>
+        <members>x8SalesforceIdeas/SalesforceIdeasDashboard</members>
+        <name>Dashboard</name>
+    </types>
+    <types>
+        <members>Communities</members>
+        <members>Food_Groups</members>
+        <members>IntendedAudience</members>
+        <members>Tiered_Support</members>
+        <name>DataCategoryGroup</name>
+    </types>
+    <types>
+        <members>AppExchangeLogos</members>
+        <members>AppExchangeLogos/Appexchange.gif</members>
+        <members>AppExchangeLogos_2</members>
+        <members>AppExchangeLogos_2/Appexchange_d_2.gif</members>
+        <members>AppExchangePRM</members>
+        <members>AppExchangePRM/ApproveButton_d_2.gif</members>
+        <members>AppExchangePRM/CalculateButton.gif</members>
+        <members>AppExchangePRM/CancelButton.gif</members>
+        <members>AppExchangePRM/FundButton.gif</members>
+        <members>AppExchangePRM/RefreshButton.gif</members>
+        <members>AppExchangePRM/RejectButton_d_2.gif</members>
+        <members>AppExchangePRM/SubmitButton_d_2.gif</members>
+        <members>AutoCompleteFolder</members>
+        <members>AutoCompleteFolder/AutoCompletejpg.jpg</members>
+        <members>BugTrackingQA</members>
+        <members>BugTrackingQA/AppExchangeLogo.gif</members>
+        <members>BugTrackingQA/ProductbugforceLogo2.jpg</members>
+        <members>ButtonsLogosImages</members>
+        <members>ButtonsLogosImages/ApproveButton.gif</members>
+        <members>ButtonsLogosImages/CompanyLogo.png</members>
+        <members>ButtonsLogosImages/Custom_Logo.jpg</members>
+        <members>ButtonsLogosImages/FiveStar.gif</members>
+        <members>ButtonsLogosImages/GreenLight.gif</members>
+        <members>ButtonsLogosImages/OneStar.gif</members>
+        <members>ButtonsLogosImages/Pacifica_Recruiting.png</members>
+        <members>ButtonsLogosImages/QUOTE_PDF_LOGO.png</members>
+        <members>ButtonsLogosImages/Recruiting_Logo.jpg</members>
+        <members>ButtonsLogosImages/RedBallgif.gif</members>
+        <members>ButtonsLogosImages/RedLight.gif</members>
+        <members>ButtonsLogosImages/RejectButton.gif</members>
+        <members>ButtonsLogosImages/SubmitButton.gif</members>
+        <members>ButtonsLogosImages/ThreeStar.gif</members>
+        <members>ButtonsLogosImages/X1.png</members>
+        <members>ButtonsLogosImages/X2.jpg</members>
+        <members>ButtonsLogosImages/X3.jpg</members>
+        <members>ButtonsLogosImages/YellowBallgif.gif</members>
+        <members>ButtonsLogosImages/YellowLight.gif</members>
+        <members>ButtonsLogosImages/appexchange_transprnt_bkgrngif.gif</members>
+        <members>ButtonsLogosImages/googlemaps_icongif.gif</members>
+        <members>ButtonsLogosImages/greenballgif.gif</members>
+        <members>ButtonsLogosImages/ideaicon.jpg</members>
+        <members>ButtonsLogosImages/xforce_prm__salesforce_prmgif.gif</members>
+        <members>ButtonsLogosImages04t30000000LZrR</members>
+        <members>ButtonsLogosImages04t30000000LZrR/Chatter_Answers.png</members>
+        <members>ButtonsLogosImages04t30000000LZrR/Feedback1.png</members>
+        <members>ButtonsLogosImages04t30000000LZrR/chat_icon.gif</members>
+        <members>ButtonsLogosImages04t30000000LZrR/customerportalicon04t30000000LZrR.gif</members>
+        <members>ButtonsLogosImages04t30000000LZrR/email_icon04t30000000LZrR.gif</members>
+        <members>ButtonsLogosImages04t30000000LZrR/facebook_icon04t30000000LZrR.gif</members>
+        <members>ButtonsLogosImages04t30000000LZrR/google_icon04t30000000LZrR.gif</members>
+        <members>ButtonsLogosImages04t30000000LZrR/phone_icon04t30000000LZrR.gif</members>
+        <members>ButtonsLogosImages04t30000000LZrR/twitter_icon04t30000000LZrR.gif</members>
+        <members>CSVfilestodemoimportwizards</members>
+        <members>CSVfilestodemoimportwizards/Account_Contact_Import_Templatecsv.csv</members>
+        <members>CSVfilestodemoimportwizards/leadscsv.csv</members>
+        <members>Cloud_Swarm</members>
+        <members>Cloud_Swarm/Cloud_Swarm_Header.gif</members>
+        <members>Cloud_Swarm/Cloud_Swarm_Icon_32x32.png</members>
+        <members>CustomerPortalImages</members>
+        <members>CustomerPortalImages/AnnualReport.jpg</members>
+        <members>CustomerPortalImages/CustomerPortalBanner.jpg</members>
+        <members>CustomerPortalImages/CustomerPortalFooterHTML.html</members>
+        <members>CustomerPortalImages/CustomerPortalHeaderHTML.htm</members>
+        <members>CustomerPortalImages/Image_1.jpg</members>
+        <members>CustomerPortalImages/SalesforcecomLogo.jpg</members>
+        <members>CustomerPortalImages/UBTHeader.htm</members>
+        <members>CustomerPortalImages/ico_view_cases.gif</members>
+        <members>CustomerPortalImages/icon_documents.gif</members>
+        <members>CustomerPortalImages/icon_log_case.gif</members>
+        <members>CustomerPortalImages/newheaderlogogif.gif</members>
+        <members>CustomerPortalImages/photo_community.jpg</members>
+        <members>CustomerPortalImages/photo_documentation.jpg</members>
+        <members>CustomerPortalImages/photo_products.jpg</members>
+        <members>CustomerPortalImages/photo_top_html_component.jpg</members>
+        <members>CustomerPortalImages/photo_top_html_component_banner.gif</members>
+        <members>CustomerPortalImages/photo_training.jpg</members>
+        <members>DealRegistrationWeb2Lead</members>
+        <members>DealRegistrationWeb2Lead/DisclaimerPlaceholder.gif</members>
+        <members>DealRegistrationWeb2Lead/Web2Leadhtml.html</members>
+        <members>DealRegistrationWeb2Lead/mainjs.js</members>
+        <members>DealRegistrationWeb2Lead/validatePartnerWebToLeadjs.js</members>
+        <members>ExpenseTracker</members>
+        <members>ExpenseTracker/AppExchangelogo2.gif</members>
+        <members>ExpenseTracker/expensetrackerlogo.jpg</members>
+        <members>HTMLSolutionsImages</members>
+        <members>HTMLSolutionsImages/forgot_passwordjpg.jpg</members>
+        <members>HTMLSolutionsImages/remotejpg.jpg</members>
+        <members>HTMLSolutionsImages/serverpng.png</members>
+        <members>Ideas_Portal</members>
+        <members>Ideas_Portal/PostIdea.jpg</members>
+        <members>Ideas_Portal/dividerjpg.jpg</members>
+        <members>Ideas_Portal/x1_sharejpg.jpg</members>
+        <members>Ideas_Portal/x2_votejpg.jpg</members>
+        <members>Ideas_Portal/x3_discussjpg.jpg</members>
+        <members>Ideas_Portal/x4_seejpg.jpg</members>
+        <members>MWA1_Graphics</members>
+        <members>MWA1_Graphics/Pollzterwebgif.gif</members>
+        <members>MarketingTools</members>
+        <members>MarketingTools/ImportantDates2008pdf.pdf</members>
+        <members>MarketingTools/ProductMarketingBrochurepdf.pdf</members>
+        <members>MarketingTools/UpcomingTourspdf.pdf</members>
+        <members>PRMCustomTheme</members>
+        <members>PRMCustomTheme/Css_d_2.css</members>
+        <members>PRMCustomTheme/Footer_d_2.html</members>
+        <members>PRMCustomTheme/Header_d_2.html</members>
+        <members>PRMCustomTheme/salesforceLogo.png</members>
+        <members>PRMDefaultTheme</members>
+        <members>PRMDefaultTheme/Css.css</members>
+        <members>PRMDefaultTheme/Footer.html</members>
+        <members>PRMDefaultTheme/FooterforReadOnlyDealRegistrations.html</members>
+        <members>PRMDefaultTheme/Header.html</members>
+        <members>PRMDefaultTheme/Logo.png</members>
+        <members>PRMDefaultTheme/PartnerNewswithImage.jpg</members>
+        <members>PRMPortalMessages</members>
+        <members>PRMPortalMessages/ConvertLeadMap.txt</members>
+        <members>PRMPortalMessages/DocumentTabContentmaster.html</members>
+        <members>PRMPortalMessages/HomeTabContentmaster.html</members>
+        <members>PRMPortalMessages/LeadTabContentmaster.html</members>
+        <members>PRMPortalMessages/OpportunityTabContentmaster.html</members>
+        <members>ProjectPlanning</members>
+        <members>ProjectPlanning/Phase1ProjectPlanning.doc</members>
+        <members>ProjectPlanning/Phase2Implementation.doc</members>
+        <members>ProjectPlanning/Phase3QAandRollout.doc</members>
+        <members>Project_Management_Folder</members>
+        <members>Project_Management_Folder/Starter_Project_LPM1a.xml</members>
+        <members>SLAReports</members>
+        <members>SLAReports/CasesopenedinOctober.htm</members>
+        <members>SalesProposals</members>
+        <members>SalesProposals/SampleCustomerProposalwithProducts.doc</members>
+        <members>SalesTools</members>
+        <members>SalesTools/CompetitiveTearSheetpdf.pdf</members>
+        <members>SalesTools/CustomerSuccessStoriespdf.pdf</members>
+        <members>SalesTools/DemoScriptpdf.pdf</members>
+        <members>SalesTools/DiscountMatrix.txt</members>
+        <members>SalesTools/SalesMethodologyBestPracticespdf.pdf</members>
+        <members>SalesTools/UpdatedPricingStructurepdf.pdf</members>
+        <members>Shared</members>
+        <members>Shared/GreenBanner.png</members>
+        <members>Shared/GreenIcon.png</members>
+        <members>SharedDocuments</members>
+        <members>SharedDocuments/Chatter_Labs.jpg</members>
+        <members>SimpleDemoOrgInstructions</members>
+        <members>SimpleDemoOrgInstructions/DemoOverview.doc</members>
+        <members>TechnicalSupport</members>
+        <members>TechnicalSupport/CustomizationSheetpdf.pdf</members>
+        <members>TechnicalSupport/FAQpdf.pdf</members>
+        <members>TechnicalSupport/QuickStartGuidepdf.pdf</members>
+        <members>TechnicalSupport/UserManualpdf.pdf</members>
+        <members>Timeline</members>
+        <members>Timeline/bubblebottomarrowpng.png</members>
+        <members>Timeline/bubblebottomleftpng.png</members>
+        <members>Timeline/bubblebottompng.png</members>
+        <members>Timeline/bubblebottomrightpng.png</members>
+        <members>Timeline/bubbleleftarrowpng.png</members>
+        <members>Timeline/bubbleleftpng.png</members>
+        <members>Timeline/bubblerightarrowpng.png</members>
+        <members>Timeline/bubblerightpng.png</members>
+        <members>Timeline/bubbletoparrowpng.png</members>
+        <members>Timeline/bubbletopleftpng.png</members>
+        <members>Timeline/bubbletoppng.png</members>
+        <members>Timeline/bubbletoprightpng.png</members>
+        <members>Timeline/closebuttonpng.png</members>
+        <members>Timeline/copyrightverticalpng.png</members>
+        <members>iPad_App_Maker_Default_Content</members>
+        <name>Document</name>
+    </types>
+    <types>
+        <members>ApprovalWorkflow</members>
+        <members>ApprovalWorkflow/ApprovalNeeded</members>
+        <members>ApprovalWorkflow/DiscountApproved</members>
+        <members>ApprovalWorkflow/DiscountRejected</members>
+        <members>CaseHistory</members>
+        <members>CaseHistory/SupportCaseHistoryUpdate</members>
+        <members>DealRegistrations</members>
+        <members>DealRegistrations/DealRegistrationAcknowledged</members>
+        <members>DealRegistrations/DealRegistrationApproved</members>
+        <members>DealRegistrations/DealRegistrationClosedWon</members>
+        <members>DealRegistrations/DealRegistrationRejected</members>
+        <members>DealRegistrations/DealRegistrationSubmitted</members>
+        <members>DealRegistrations/LeadChangedtoDealRegistration</members>
+        <members>InternalNotifications</members>
+        <members>InternalNotifications/LeadsNewassignmentnotificationSAMPLE</members>
+        <members>InternalNotifications/LeadsWebtoLeademailresponseSAMPLE</members>
+        <members>InternalNotifications/PATEMPLATE</members>
+        <members>InternalNotifications/SUPPORTCaseResponsewithSolutionSAMPLE</members>
+        <members>InternalNotifications/SUPPORTCaseescalationnotificationSAMPLE</members>
+        <members>InternalNotifications/SUPPORTCustomerCaseescalationnotificationSAMPLE</members>
+        <members>InternalNotifications/SUPPORTNewassignmentnotificationSAMPLE</members>
+        <members>InternalNotifications/SUPPORTSelfServiceNewCommentNotificationSAMPLE</members>
+        <members>InternalNotifications/SUPPORTSelfServiceNewUserLoginInformationSAMPLE</members>
+        <members>InternalNotifications/SUPPORTSelfServiceResetPasswordSAMPLE</members>
+        <members>InternalNotifications/SUPPORTWebtoCaseemailresponseSAMPLE</members>
+        <members>MarketingTemplates</members>
+        <members>MarketingTemplates/MKTCustomerSuccessDay</members>
+        <members>MarketingTemplates/MktInquiryResponseGeneral</members>
+        <members>MarketingTemplates/MktNewCustomerEmail</members>
+        <members>MarketingTemplates/TCOWhitepaper</members>
+        <members>SalesTemplates</members>
+        <members>SalesTemplates/BigDealAlert</members>
+        <members>SalesTemplates/ContactFollowUpSAMPLE</members>
+        <members>SalesTemplates/LeadFollowuppostcall</members>
+        <members>SalesTemplates/LeadFollowuppostcall_Interested</members>
+        <members>SalesTemplates/NEWORDERFORINVOICING</members>
+        <members>SalesTemplates/RenewalNotice</members>
+        <members>SupportTemplates</members>
+        <members>SupportTemplates/CasewArticle</members>
+        <members>SupportTemplates/CasewSolution</members>
+        <members>SupportTemplates/CustomerPortalROICalculator</members>
+        <members>SupportTemplates/FollowupSurveyonCaseClose</members>
+        <members>SupportTemplates/Thistemplateisusedtoconfirmacasetoacontact</members>
+        <members>unfiled$public</members>
+        <members>unfiled$public/CommunityChangePasswordEmailTemplate</members>
+        <members>unfiled$public/CommunityForgotPasswordEmailTemplate</members>
+        <members>unfiled$public/CommunityWelcomeEmailTemplate</members>
+        <members>unfiled$public/CustomerPortalCustomerPortalNewUserLoginInformationSAMPLE</members>
+        <members>unfiled$public/CustomerPortalCustomerPortalResetPasswordSAMPLE</members>
+        <members>unfiled$public/CustomerPortalSelfRegistrationErrorSAMPLE</members>
+        <members>unfiled$public/PartnerRelationshipManagementPartnerPortalNewUserLoginInformationSAMPLE</members>
+        <members>unfiled$public/PartnerRelationshipManagementPartnerPortalResetPasswordSAMPLE</members>
+        <members>unfiled$public/SUPPORT%3A Self-Service New Comment %28SAMPLE%29</members>
+        <members>unfiled$public/SUPPORT%3A Self-Service New Comment Notification %28SAMPLE%29</members>
+        <members>unfiled$public/SUPPORT%3A Self-Service New User Login %28SAMPLE%29</members>
+        <members>unfiled$public/SUPPORT%3A Self-Service New User Login Information %28SAMPLE%29</members>
+        <members>unfiled$public/SUPPORT%3A Self-Service Reset Password %28SAMPLE%29</members>
+        <members>unfiled$public/SalesforcetoSalesforceAcceptanceSAMPLE</members>
+        <members>unfiled$public/SalesforcetoSalesforceDeactivationSAMPLE</members>
+        <members>unfiled$public/SalesforcetoSalesforceInvitationSAMPLE</members>
+        <members>unfiled$public/SalesforcetoSalesforceRejectionSAMPLE</members>
+        <members>unfiled$public/SalesforcetoSalesforceUpdateconnectionSAMPLE</members>
+        <name>EmailTemplate</name>
+    </types>
+    <types>
+        <members>gold coverage entitlement process - all channel support</members>
+        <members>gold coverage entitlement process - phone support</members>
+        <members>gold coverage entitlement process - web support</members>
+        <members>platinum coverage entitlement process - all channels</members>
+        <members>standard warranty_v1</members>
+        <members>standard warranty_v2</members>
+        <name>EntitlementProcess</name>
+    </types>
+    <types>
+        <members>Case</members>
+        <name>EscalationRules</name>
+    </types>
+    <types>
+        <members>NW</members>
+        <members>ODATAORG</members>
+        <name>ExternalDataSource</name>
+    </types>
+    <types>
+        <members>WatchIt</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>CustomerPortalUsers</members>
+        <members>CustomerPortalWorkspaceAuthors</members>
+        <members>MarketingManagers</members>
+        <members>PartnerUsers</members>
+        <members>ProductManagers</members>
+        <members>SalesReps</members>
+        <members>SupportAgents</members>
+        <members>discussionForumSharinga1M300000000Eb1EAE</members>
+        <name>Group</name>
+    </types>
+    <types>
+        <members>* Bells %26 Whistles</members>
+        <members>* Company Logo %28Switch This One%29</members>
+        <members>* Customer Portal - IFrame to Load VF Homepage</members>
+        <members>* ORG SETUP TOOLS</members>
+        <members>* Partner Portal - IFrame to load VF Homepage</members>
+        <members>* Portal Homepages</members>
+        <members>* Portals%2FLanding Pages</members>
+        <members>* Productivity Tools</members>
+        <members>* Salesforce Content</members>
+        <members>Add A Task %28alias---task%29</members>
+        <members>Admin Tools - Old</members>
+        <members>CTI Anywhere</members>
+        <members>Customer Portal - Custom - Assets List</members>
+        <members>Customer Portal - Custom - Entitlements Section</members>
+        <members>Customer Portal - Custom - HP Message%3A Welcome to our Portal</members>
+        <members>Customer Portal - Custom - Main Block %28Nav w%2F Pics%29</members>
+        <members>Customer Portal - Custom - Recent Cases</members>
+        <members>Customer Portal - Custom - Sidebar Picture - 2007 Annual Report</members>
+        <members>Customer Portal - Custom - Top Solutions</members>
+        <members>Customer Portal - Helpful Links</members>
+        <members>Customer Portal - Standard %28Project Example%29 - Welcome to Project Standard CP</members>
+        <members>Customer Portal - Standard -  Welcome Message</members>
+        <members>Customer Portal - Standard - Auto Top Solution</members>
+        <members>Customer Portal - Standard - Flex Dashboards</members>
+        <members>Customer Portal - Standard - My recent cases</members>
+        <members>Federated Search</members>
+        <members>Google Charts - Customer</members>
+        <members>Google Charts - Partner</members>
+        <members>HomepageTicker</members>
+        <members>Ideas Welcome</members>
+        <members>Ideas in Action</members>
+        <members>Important Corporate Messages for Service and Support</members>
+        <members>Partner Portal - Approval Requests</members>
+        <members>Partner Portal - Current Stats</members>
+        <members>Partner Portal - Lead Inbox</members>
+        <members>Partner Portal - Partner News %28older%29</members>
+        <members>Partner Portal - Partner News %28with Image%29</members>
+        <members>Partner Welcome</members>
+        <members>Post Idea</members>
+        <members>Question of the Week</members>
+        <members>Salesforce Live Agent</members>
+        <members>Salesforce1 Logins</members>
+        <members>Self-Service Troubleshooting</members>
+        <members>Welcome</members>
+        <name>HomePageComponent</name>
+    </types>
+    <types>
+        <members>Channel Manager Home Page</members>
+        <members>Customer Portal - Custom</members>
+        <members>Customer Portal - Ideas</members>
+        <members>Customer Portal - Standard</members>
+        <members>Customer Portal - Standard %28Project Collab Example%29</members>
+        <members>Partner Portal - Gold</members>
+        <members>Partner Portal - Silver %26 Bronze</members>
+        <members>Sales Home Page</members>
+        <members>Support Home Page</members>
+        <name>HomePageLayout</name>
+    </types>
+    <types>
+        <members>APTTaskTemplate__c-APT Task Layout</members>
+        <members>APTaskTemplate__c-AP Task Layout</members>
+        <members>Account-Advanced - Complex</members>
+        <members>Account-Data%2Ecom Layout</members>
+        <members>Account-PRM - Partner Account</members>
+        <members>Account-Standard</members>
+        <members>AccountContactRole-Account Contact Role Layout</members>
+        <members>ActionPlanTemplate__c-Action Plan Template Layout</members>
+        <members>ActionPlan__c-Action Plan Layout</members>
+        <members>Activity_Template_Line__c-Activity Template Line Layout</members>
+        <members>Activity_Template__c-Activity Template Layout</members>
+        <members>Apex_Sharing_Test__c-ApexShare Layout</members>
+        <members>Asset-Asset Layout</members>
+        <members>Asset-Asset Layout - Customer</members>
+        <members>BenefitOfOmega__kav-BenefitOfOmega Layout</members>
+        <members>Campaign-Campaign Layout</members>
+        <members>Campaign-Parent Campaign Layout</members>
+        <members>CampaignMember-Campaign Member Page Layout</members>
+        <members>Candidate__c-Candidate Layout</members>
+        <members>Case-Community Case - Knowledge</members>
+        <members>Case-Cust Portal - Billing Case Layout</members>
+        <members>Case-Cust Portal - Case Layout</members>
+        <members>Case-Cust Portal - Case Layout - Knowledge</members>
+        <members>Case-Customer Issue - Billing</members>
+        <members>Case-Customer Issue - Bug%2FFeature Request</members>
+        <members>Case-Customer Issue - Email 2 Case</members>
+        <members>Case-Customer Issue - Entitlement</members>
+        <members>Case-Customer Issue - Field Service</members>
+        <members>Case-Customer Issue - Knowledge</members>
+        <members>Case-Customer Issue - Social</members>
+        <members>Case-Customer Issue - Solutions</members>
+        <members>Case-General Enquiry</members>
+        <members>Case-General Enquiry - Case Feed</members>
+        <members>CaseClose-Cust Portal - Close Case Layout</members>
+        <members>CaseClose-Internal - Close Case Layout</members>
+        <members>CaseInteraction-Billing Support - Case Feed Layout</members>
+        <members>CaseInteraction-Bug Mgmt %2F Feature Request - Case Feed Layout</members>
+        <members>CaseInteraction-Entitlement - Case Feed Layout</members>
+        <members>CaseInteraction-Field Service - Case Feed Layout</members>
+        <members>CaseInteraction-Technical - Case Feed Layout</members>
+        <members>CaseMilestone-Case Milestone Layout</members>
+        <members>Case_Pipeline_Snapshot__c-Case Pipeline Snapshot Layout</members>
+        <members>Case_Swarm_Rule__c-Case Swarm Rule Layout</members>
+        <members>Chatter_Message_Recipient__c-Chatter Message Recipient Layout</members>
+        <members>Chatter_Message__c-Chatter Message Layout</members>
+        <members>ChildOfOppProd__c-ChildOfOppProd Layout</members>
+        <members>Claims__c-Claim Layout</members>
+        <members>CollaborationGroup-Group Layout</members>
+        <members>Contact-Contact Layout</members>
+        <members>Contact-Contact Layout - Twitter</members>
+        <members>Contact-Partner Contact Layout</members>
+        <members>Contact-Portal Contact Layout</members>
+        <members>ContentVersion-General</members>
+        <members>ContentVersion-Marketing Asset</members>
+        <members>ContentVersion-Sales Asset</members>
+        <members>ContentVersion-Support Asset</members>
+        <members>Contract-Contract Layout</members>
+        <members>ContractLineItem-Contract Line Item Layout</members>
+        <members>Contract_Renewal__c-Contract Renewal Request Layout</members>
+        <members>Customer_Portal_Savings_Calculator__c-Customer Portal Savings Calculator Layout</members>
+        <members>Customers__x-Customers Layout</members>
+        <members>DEMODATA__c-DEMODATA Layout</members>
+        <members>DandBCompany-D%26B Company Layout</members>
+        <members>Data_sfga_header__c-Test Header Layout</members>
+        <members>DateShifter__c-DateShifter Layout</members>
+        <members>Demo_Overview__c-Demo Overview Layout</members>
+        <members>Driver__c-Driver Layout</members>
+        <members>DuplicateRecordItem-Duplicate Record Item Layout</members>
+        <members>DuplicateRecordSet-Duplicate Record Set Layout</members>
+        <members>Employment_Website__c-Employment Website Layout</members>
+        <members>EncryptTest__c-EncryptedObj Layout</members>
+        <members>Entitlement-Entitlement Layout</members>
+        <members>Event-Event Layout</members>
+        <members>FAQ__kav-FAQ Layout</members>
+        <members>FeedItem-Feed Item Layout</members>
+        <members>Feed_Post_Swarm_Rule__c-Feed Post Swarm Rule Layout</members>
+        <members>Feedback__c-Feedback Layout</members>
+        <members>Global-Global Layout</members>
+        <members>Green_Rider_Settings__c-Green Rider Setting Layout</members>
+        <members>How_To__kav-How To Layout</members>
+        <members>Idea-Idea Layout</members>
+        <members>Idea_Issues__c-Project Issue Layout</members>
+        <members>Idea_Milestone__c-Milestone Layout</members>
+        <members>Idea_Team__c-Project Team Layout</members>
+        <members>Ideas_Projects__c-Customer Portal Layout</members>
+        <members>Ideas_Projects__c-Project Layout</members>
+        <members>Interview__c-Interview Layout</members>
+        <members>Invoice_Example__c-Invoice Layout</members>
+        <members>Invoice__c-Invoice Layout</members>
+        <members>Issue__c-Issue Layout</members>
+        <members>Job_Application__c-Job Application Layout</members>
+        <members>Lead-Approved Deal Registration</members>
+        <members>Lead-Lead Layout</members>
+        <members>Lead-Lead Layout - Twitter</members>
+        <members>Lead-PRM - Deal Registration %28Channel Manager View%29</members>
+        <members>Lead-PRM - Lead Layout %28Portal%29</members>
+        <members>Lead_Swarm_Rule__c-Lead Swarm Rule Layout</members>
+        <members>Line_Item__c-Line Item Layout</members>
+        <members>LiveAgentSession-Live Agent Session Layout</members>
+        <members>LiveChatTranscript-Live Chat Transcript Layout</members>
+        <members>LiveChatTranscriptEvent-Live Chat Transcript Event Layout</members>
+        <members>LiveChatVisitor-Live Chat Visitor Layout</members>
+        <members>MWA1_Answer__c-Answer Layout</members>
+        <members>MWA1_Entry__c-Entry Layout</members>
+        <members>MWA1_Submission__c-Submission Layout</members>
+        <members>MWA1_Survey__c-Survey Layout</members>
+        <members>Macro-Macro Layout</members>
+        <members>Merchandise__c-Merchandise Layout</members>
+        <members>Milestone1_Expense__c-Project Expense Layout</members>
+        <members>Milestone1_Log__c-Project Log Layout</members>
+        <members>Milestone1_Milestone__c-Project Milestone Layout</members>
+        <members>Milestone1_Project__c-Project Layout</members>
+        <members>Milestone1_Task__c-Project Task Layout</members>
+        <members>Milestone1_Time__c-Project Time Layout</members>
+        <members>My_Notes__c-My Notes Layout</members>
+        <members>ObjectTerritory2AssignmentRule-Object Territory Assignment Rule Layout</members>
+        <members>Observation__c-Observation Layout</members>
+        <members>Opportunity-Advanced</members>
+        <members>Opportunity-PRM - Deal Registration %28Channel Manager View%29</members>
+        <members>Opportunity-Service Opportunity</members>
+        <members>Opportunity-Standard</members>
+        <members>OpportunityLineItem-Opportunity Product Layout</members>
+        <members>OpportunityTeamMember-Opportunity Team Member Layout</members>
+        <members>Opportunity_Note__c-Opportunity Note Layout</members>
+        <members>Opportunity_Pipeline_Snapshot__c-Opportunity Pipeline Snapshot Layout</members>
+        <members>Opportunity_Swarm_Rule__c-Opportunity Swarm Rule Layout</members>
+        <members>Order-Order Layout</members>
+        <members>OrderItem-Order Product Layout</members>
+        <members>Order_Details__x-Order_Details Layout</members>
+        <members>Order_Line_Item__c-Order Line Item Layout</members>
+        <members>Orders__x-Orders Layout</members>
+        <members>PKB_Article_Feedback_Deflection__c-PKB Article Deflection Layout</members>
+        <members>PKB_Featured__c-PKB Featured Layout</members>
+        <members>PersonAccount-Person Account Layout</members>
+        <members>Position__c-IT Position Layout</members>
+        <members>Position__c-Position Layout</members>
+        <members>Pricebook2-Price Book Layout</members>
+        <members>PricebookEntry-Price Book Entry Layout</members>
+        <members>Product2-Product Layout</members>
+        <members>ProjMgrs__c-ProjMgrs Layout</members>
+        <members>Project_Snapshot__c-Project Snapshot Layout</members>
+        <members>Question-Question Layout</members>
+        <members>Queue_Stat__c-Queue Stat Layout</members>
+        <members>QuickText-Quick Text Layout</members>
+        <members>Quote-Quote Layout</members>
+        <members>QuoteLineItem-Quote Line Item Layout</members>
+        <members>RMA_Transaction__c-RMA Transaction Layout</members>
+        <members>RMA__c-RMA Layout</members>
+        <members>RM__c-RMA Layout</members>
+        <members>Referrals__c-Referral Layout</members>
+        <members>Related_Case__c-Related Case Layout</members>
+        <members>Related_Idea__c-Related Idea Layout</members>
+        <members>Reply-Reply Layout</members>
+        <members>Review__c-Review Layout</members>
+        <members>RidesAvailable__c-Ride Available Layout</members>
+        <members>SFDC_520_Approval_Request__c-Approval Request Layout</members>
+        <members>SFDC_520_Approval_Request__c-Rep Approval Request Layout</members>
+        <members>SFDC_520_QuoteLine__c-Quote Line Layout</members>
+        <members>SFDC_520_Quote__c-Approved</members>
+        <members>SFDC_520_Quote__c-Unapproved</members>
+        <members>SFDC_Bug__c-Bug Layout</members>
+        <members>SFDC_Channel_Account_Plan__c-Channel Plan Layout</members>
+        <members>SFDC_Channel_Budget_Entry__c-Budget Entry Layout</members>
+        <members>SFDC_Channel_Budget__c-Budget Layout</members>
+        <members>SFDC_Component__c-Component Layout</members>
+        <members>SFDC_Expense_Header__c-Expense Report Layout</members>
+        <members>SFDC_Expense_Line_Item__c-Expense Line Item Layout</members>
+        <members>SFDC_Feature_Request__c-Feature Request Layout</members>
+        <members>SFDC_MDF_Claim__c-Fund Claim Layout</members>
+        <members>SFDC_MDF__c-Fund Request Layout</members>
+        <members>SFDC_Objective_Opportunity_Association__c-Objective - Opportunity Association Layout</members>
+        <members>SFDC_Objective__c-Objective Layout</members>
+        <members>SFDC_Plan_Resource_Association__c-Channel Team Layout</members>
+        <members>SFDC_Related_Bug__c-Related Bug Layout</members>
+        <members>SFDC_Test_Case__c-Test Case Layout</members>
+        <members>Sales_Coach_Activity__c-Sales Coach Activity Layout</members>
+        <members>Sales_Coach_Admin__c-Sales Coach Admin Layout</members>
+        <members>Sales_Coach_Role__c-Sales Coach Role Layout</members>
+        <members>Sales_Coach_Section_Item__c-Sales Coach Section Item Layout</members>
+        <members>Sales_Coach_Section__c-Sales Coach Section Layout</members>
+        <members>Sales_Coach_Stage__c-Sales Coach Stage Layout</members>
+        <members>Sales_Order_Custom__c-Standard Order Layout</members>
+        <members>ServiceContract-Service Contract Layout</members>
+        <members>ServiceContract-Service Contract Layout - External</members>
+        <members>Service__c-Service Layout</members>
+        <members>Shipment__c-Shipment Layout</members>
+        <members>SocialPersona-Social Persona Layout</members>
+        <members>SocialPost-Social Post Layout</members>
+        <members>Solution-CP - Solution Layout</members>
+        <members>Solution-Solution Layout</members>
+        <members>Standard_How_To__kav-Standard Solution Layout</members>
+        <members>Stop_Status__c-Stop Status Layout</members>
+        <members>Task-Task Layout</members>
+        <members>Technical_Problem_Fix__kav-Complex Solution Layout</members>
+        <members>Territory2-Territory Layout</members>
+        <members>Territory2Model-Territory Model Layout</members>
+        <members>Territory2Type-Territory Type Layout</members>
+        <members>Ticker_Item__c-Ticker Item Layout</members>
+        <members>Ticker_Settings__c-Ticker Settings Layout</members>
+        <members>TimeCapture__c-TimeCapture Layout</members>
+        <members>Time_Expense_Entry__c-Expense Entry Layout</members>
+        <members>Time_Expense_Entry__c-Time Entry Layout</members>
+        <members>Top_Client__c-Top Client Layout</members>
+        <members>Training_Course__c-Training Course Layout</members>
+        <members>Training_Registration__c-Training Registration Layout</members>
+        <members>User-User Layout</members>
+        <members>UserAlt-User Profile Layout</members>
+        <members>UserTerritory2Association-User Territory Association Layout</members>
+        <members>Work_Order__c-Work Order Layout</members>
+        <members>data_sfga__c-data sfga Layout</members>
+        <members>data_sfga_camp__c-Master Campaign Layout</members>
+        <members>iOrder__c-iOrder Layout</members>
+        <members>z_ChildRelationship__c-z_ChildRelationship Layout</members>
+        <members>z_FieldDescription__c-z_FieldDescriptionLayout</members>
+        <members>z_MetaDumpSetting__c-Meta Dump Setting Layout</members>
+        <members>z_SObjectDescription__c-z_SObjectDescriptionLayout</members>
+        <members>z_SchemaTemp__c-z_SchemaTempLayout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>CorporateLogo</members>
+        <members>SalesforcecomGenericLogo</members>
+        <name>Letterhead</name>
+    </types>
+    <types>
+        <members>Standard_Agent</members>
+        <name>LiveChatAgentConfig</name>
+    </types>
+    <types>
+        <members>Standard_Button</members>
+        <name>LiveChatButton</name>
+    </types>
+    <types>
+        <members>Live_Agent_Portal_Chat</members>
+        <name>LiveChatDeployment</name>
+    </types>
+    <types>
+        <members>Cirrus Customers</members>
+        <name>ManagedTopics</name>
+    </types>
+    <types>
+        <members>Account</members>
+        <members>Contact</members>
+        <members>Lead</members>
+        <members>Merchandise__c</members>
+        <name>MatchingRules</name>
+    </types>
+    <types>
+        <members>Acknowledge Ownership</members>
+        <members>Escalate if Resolution Unknown</members>
+        <members>Final Resolution</members>
+        <members>First Response</members>
+        <members>Update Case Comment</members>
+        <name>MilestoneType</name>
+    </types>
+    <types>
+        <members>Cirrus Customers</members>
+        <name>Network</name>
+    </types>
+    <types>
+        <members>A1</members>
+        <members>Apex_Badge_Encryption_permission</members>
+        <members>Approve_and_Publish_Articles</members>
+        <members>Bulk_Hard_Delete_Permission</members>
+        <members>CCL_Knowledge_Test</members>
+        <members>Service_Cloud_Console</members>
+        <members>Single_sign_on_not_enabled</members>
+        <members>Use_Case_Feed</members>
+        <members>manage_community</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>* MASTER Customer Portal</members>
+        <members>* Partner Portal - Gold %28treseller%40%29</members>
+        <members>Bronze Partner Portal %28bbronze%40%29</members>
+        <members>Custom Customer Portal %28Project Collaboration Example%29</members>
+        <members>Ideas Customer Portal</members>
+        <members>Silver Partner Portal %28ssilver%40%29</members>
+        <members>Standard Customer Portal</members>
+        <name>Portal</name>
+    </types>
+    <types>
+        <members>Admin</members>
+        <members>BDG Service Cloud</members>
+        <members>Basic Customer Portal Manager</members>
+        <members>Bronze Partner User</members>
+        <members>CSPLite</members>
+        <members>Channel Manager</members>
+        <members>Chatter External User</members>
+        <members>Chatter Free User</members>
+        <members>Chatter Moderator User</members>
+        <members>Chatter Only - Projectforce</members>
+        <members>Chatter Only User</members>
+        <members>Cirrus Computers Profile</members>
+        <members>Cirrus Customers Profile</members>
+        <members>Communities Profile</members>
+        <members>ContractManager</members>
+        <members>Custom - SysAdmin</members>
+        <members>Customer Community Login Srbadge</members>
+        <members>Customer Community Login User</members>
+        <members>Customer Community Srbadge</members>
+        <members>Customer Community User</members>
+        <members>Customer Portal - Custom %28lb%40%29</members>
+        <members>Customer Portal - Custom - Project Example - %28ab%40%2C mk%40%29</members>
+        <members>Customer Portal - Ideas %28si%40%29</members>
+        <members>CustomerManager</members>
+        <members>Gold Partner User</members>
+        <members>Gold Partner User %28treseller%40%2C jpreston%40%29</members>
+        <members>Guest License User</members>
+        <members>High Volume Customer Portal User</members>
+        <members>HighVolumePortal</members>
+        <members>Knowledge Manager</members>
+        <members>MAINTANANCE Profile</members>
+        <members>MarketingProfile</members>
+        <members>Overage High Volume Customer Portal User</members>
+        <members>Partner</members>
+        <members>Partner Community Login User</members>
+        <members>Partner Community User</members>
+        <members>Public Knowledgebase Profile</members>
+        <members>ReadOnly</members>
+        <members>SYSADM CLONE</members>
+        <members>Sales User</members>
+        <members>Service Cloud User</members>
+        <members>ServiceCloud</members>
+        <members>Silver Partner User</members>
+        <members>Siteforce Only User</members>
+        <members>SolutionManager</members>
+        <members>Standard</members>
+        <members>Standard Customer Portal %28jd%40%29</members>
+        <members>Standard Customer Portal Manager</members>
+        <members>StandardAul</members>
+        <members>StandardAul1</members>
+        <members>TESTPUBLIC Profile</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>BillingQueue</members>
+        <members>DiscussionForuma1M300000000Eb1EAE</members>
+        <members>GeneralQueue</members>
+        <members>InternationalQueue</members>
+        <members>PRINT_CASE_QUEUE</members>
+        <members>ProductManagement</members>
+        <members>SLAEntitlementsQueue</members>
+        <members>TargetCampaign</members>
+        <members>Tier2EscalationQueue</members>
+        <members>Time_Off_Manager_Payroll</members>
+        <members>UnassignedPartnerLeads</members>
+        <name>Queue</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>QuickAction</name>
+    </types>
+    <types>
+        <members>FulfillmentWebService</members>
+        <members>GoogleMaps</members>
+        <members>HEROKUOPP</members>
+        <members>Twitter</members>
+        <members>Twitter_Search</members>
+        <members>exp</members>
+        <members>iOrderBadge</members>
+        <members>immenseMontain</members>
+        <name>RemoteSiteSetting</name>
+    </types>
+    <types>
+        <members>BugandFeatureRequestReports</members>
+        <members>BugandFeatureRequestReports/BugsFixedinNext90Days</members>
+        <members>BugandFeatureRequestReports/DeveloperUnassignedBugs</members>
+        <members>BugandFeatureRequestReports/NextReleaseFeatureRequests</members>
+        <members>BugandFeatureRequestReports/RequestsbyOriginFlag</members>
+        <members>BugandFeatureRequestReports/StaleBugs</members>
+        <members>BugandFeatureRequestReports/ofBugsPerDeveloper</members>
+        <members>BugandFeatureRequestReports/ofClosedBugs</members>
+        <members>BugandFeatureRequestReports/ofFeatureRequestsbyStatus</members>
+        <members>BugandFeatureRequestReports/ofFeaturesbyRelease</members>
+        <members>BugandFeatureRequestReports/ofOpenBugsbyDeveloper</members>
+        <members>BugandFeatureRequestReports/ofOpenBugsbyPriority</members>
+        <members>ChannelBudgetReports</members>
+        <members>ChannelBudgetReports/BudgetAllocationCommitted</members>
+        <members>ChannelBudgetReports/ChannelBudgetApprovalHistory</members>
+        <members>ChannelBudgetReports/dashAvailableBudgetBalances</members>
+        <members>ChannelBudgetReports/dashAverageBudgetAllocation</members>
+        <members>ChannelBudgetReports/dashBudgetAllocation</members>
+        <members>ChannelBudgetReports/dashBudgets</members>
+        <members>ChannelBudgetReports/dashLargestBudgetAllocation</members>
+        <members>ChannelBudgetReports/dashOutstandingLiability</members>
+        <members>ChannelBudgetReports/dashTotalAllocatedBudget</members>
+        <members>ChannelFundsReports</members>
+        <members>ChannelFundsReports/ClaimsByPartner</members>
+        <members>ChannelFundsReports/dashApprovedClaimsTrend120Days</members>
+        <members>ChannelFundsReports/dashApprovedRequestsByActivity</members>
+        <members>ChannelFundsReports/dashApprovedamountbybudget</members>
+        <members>ChannelFundsReports/dashAverageClaimAmount</members>
+        <members>ChannelFundsReports/dashAverageRequestAmount</members>
+        <members>ChannelFundsReports/dashFundRequestStatus</members>
+        <members>ChannelFundsReports/dashHighRequestAmount</members>
+        <members>ChannelFundsReports/dashOpenClaimsByPartner</members>
+        <members>ChannelFundsReports/dashOpenClaimsValue</members>
+        <members>ChannelFundsReports/dashOpenFundRequestsByPartner</members>
+        <members>ChannelFundsReports/dashOpenFundRequestsValue</members>
+        <members>ChannelFundsReports/dashPartnerClaimPaymentHistory</members>
+        <members>ChannelFundsReports/dashPendingrequestsover10k</members>
+        <members>ChannelFundsReports/dashPendingrequestsover10k_d_2</members>
+        <members>ChannelFundsReports/dashPendingrequestsover2k</members>
+        <members>ChannelFundsReports/dashPendingrequestsover2k_d_2</members>
+        <members>ChannelFundsReports/dashRequestsByPartner</members>
+        <members>ChannelFundsReports/dashTotalApprovedAmountFunds</members>
+        <members>ChannelFundsReports/dashTotalPaidClaims</members>
+        <members>ChannelFundsReports/dashTotalRequestedAmount</members>
+        <members>ChannelPlanReports</members>
+        <members>ChannelPlanReports/Dashobjectivesbytype</members>
+        <members>ChannelPlanReports/PerformanceScorecard</members>
+        <members>ChannelPlanReports/PerformanceScorecardbyObjectiveType</members>
+        <members>ChannelPlanReports/dashActiveAccountPlans</members>
+        <members>ChannelPlanReports/dashComingdueObjectives</members>
+        <members>ChannelPlanReports/dashObjectiveStageByAccount</members>
+        <members>ChannelPlanReports/dashOverdueObjectives</members>
+        <members>Chatter_Adoption_Reports</members>
+        <members>Chatter_Adoption_Reports/Chatter_Posts_last_7_days</members>
+        <members>Chatter_Adoption_Reports/Chatter_Posts_last_90_days</members>
+        <members>Chatter_Adoption_Reports/Feed_Item_Type</members>
+        <members>Chatter_Adoption_Reports/GUS_Chatter</members>
+        <members>Chatter_Adoption_Reports/GUS_Chatter_Feed_Item_Type_last_90d</members>
+        <members>Chatter_Adoption_Reports/GUS_Chatter_Grops_Posts_last_7_days</members>
+        <members>Chatter_Adoption_Reports/GUS_Chatter_Group_posts_x_User</members>
+        <members>Chatter_Adoption_Reports/GUS_Chatter_Groups_Posts_last_90d</members>
+        <members>Chatter_Adoption_Reports/GUS_Chatter_Groups_by_Creator</members>
+        <members>Chatter_Adoption_Reports/GUS_Chatter_Groups_creation_by_Access</members>
+        <members>Chatter_Adoption_Reports/GUS_Chatter_Groups_creation_by_date</members>
+        <members>Chatter_Adoption_Reports/GUS_Chatter_Groups_of_Members</members>
+        <members>Chatter_Adoption_Reports/GUS_Chatter_Groups_of_Posts</members>
+        <members>Chatter_Adoption_Reports/GUS_Chatter_Members_of_Groups</members>
+        <members>Chatter_Adoption_Reports/GUS_Chatter_Personal_Email_Digest_Freq</members>
+        <members>Chatter_Adoption_Reports/GUS_Chatter_User_of_Content_Posts</members>
+        <members>Chatter_Adoption_Reports/GUS_Chatter_User_of_Link_Posts</members>
+        <members>Chatter_Adoption_Reports/GUS_Chatter_User_of_Posts</members>
+        <members>Chatter_Adoption_Reports/GUS_Users_with_Followers</members>
+        <members>Chatter_Adoption_Reports/Groups_Comments</members>
+        <members>Customer_Portal_Reports</members>
+        <members>Customer_Portal_Reports/Customer_Cases_by_Priority</members>
+        <members>Customer_Portal_Reports/Customer_Cases_by_Status</members>
+        <members>Customer_Portal_Reports/Customer_Cases_by_Type</members>
+        <members>Customer_Portal_Reports/MyCasesYTD</members>
+        <members>Customer_Service_Reports</members>
+        <members>Customer_Service_Reports/CaseAgeInBusinessHours</members>
+        <members>DashboardReportsAdoption</members>
+        <members>DashboardReportsAdoption/DataQualityAccountsmissingRating</members>
+        <members>DashboardReportsAdoption/DataQualityAccountswithKeyFields</members>
+        <members>DashboardReportsAdoption/DataQualityCloseDateinthePast</members>
+        <members>DashboardReportsAdoption/DataQualityConditionalonType</members>
+        <members>DashboardReportsAdoption/DataQualityLeadConversion</members>
+        <members>DashboardReportsAdoption/DataQualityOpportunitiesNoAccount</members>
+        <members>DashboardReportsAdoption/DataQualityStagesOpptyEntered</members>
+        <members>DashboardReportsAdoption/ImportantNeglectedAccounts</members>
+        <members>DashboardReportsAdoption/PerformanceActivityTypebyRep</members>
+        <members>DashboardReportsAdoption/PerformanceMonthlyTrendStacked</members>
+        <members>DashboardReportsAdoption/PerformanceOpenLeads</members>
+        <members>DashboardReportsAdoption/PerformanceOpenLeadsNotContacted</members>
+        <members>DashboardReportsAdoption/PerformanceOpportunityTypeLost</members>
+        <members>DashboardReportsAdoption/PerformanceOpportunityTypeWon</members>
+        <members>DashboardReportsAdoption/PerformancePipelinebyRep</members>
+        <members>DashboardReportsAdoption/PerformanceWinRate</members>
+        <members>DashboardReportsAdoption/TotalAccounts</members>
+        <members>DashboardReportsAdoption/UsageAccountsCreated</members>
+        <members>DashboardReportsAdoption/UsageAccountsLastModified</members>
+        <members>DashboardReportsAdoption/UsageActivitiesCompleted</members>
+        <members>DashboardReportsAdoption/UsageContactsCreated</members>
+        <members>DashboardReportsAdoption/UsageLoginLeaderBoard</members>
+        <members>DashboardReportsAdoption/UsageLoginbyRolebyMonth</members>
+        <members>DashboardReportsAdoption/UsageNeglectedOpportunities</members>
+        <members>DashboardReportsAdoption/UsageOpenTasksbyAssignedRole</members>
+        <members>DashboardReportsAdoption/UsageOpptyCreated</members>
+        <members>DashboardReportsAdoption/UsageTotalActiveUsers</members>
+        <members>DashboardReportsAdoption/UsageUsersLoggedIn</members>
+        <members>DashboardReportsAdoption/UsageWallofShame</members>
+        <members>DashboardReportsDashboardUnknown</members>
+        <members>DashboardReportsDashboardUnknown/CampaignSuccess</members>
+        <members>DashboardReportsDashboardUnknown/CampaignsbyROI</members>
+        <members>DashboardReportsDashboardUnknown/CindyCentralsYTDsales</members>
+        <members>DashboardReportsDashboardUnknown/CindyWestspipeline</members>
+        <members>DashboardReportsDashboardUnknown/LeadsbyLeadSource</members>
+        <members>DashboardReportsDashboardUnknown/PipelinebyForecastCategory</members>
+        <members>DashboardReportsDashboardUnknown/PipelinebyStageandType_d_2</members>
+        <members>DashboardReportsDashboardUnknown/ProductPipelinebyScheduleAmount</members>
+        <members>DashboardReportsDashboardUnknown/ProductPipelinebyScheduleQuantity</members>
+        <members>DataQualityReports</members>
+        <members>DataQualityReports/AccountDataQualityDescriptions</members>
+        <members>DataQualityReports/AccountDataQualityScore</members>
+        <members>DataQualityReports/AccountOwnerDataQuality</members>
+        <members>DataQualityReports/ActivityAssignedOwnerDataQuality</members>
+        <members>DataQualityReports/ActivityDataQualityDescription</members>
+        <members>DataQualityReports/ActivityDataQualityScore</members>
+        <members>DataQualityReports/CampaignDataQualityDescription</members>
+        <members>DataQualityReports/CampaignDataQualityScore</members>
+        <members>DataQualityReports/CampaignOwnerDataQuality</members>
+        <members>DataQualityReports/CaseDataQualityDescription</members>
+        <members>DataQualityReports/CaseDataQualityScore</members>
+        <members>DataQualityReports/CaseOwnerDataQuality</members>
+        <members>DataQualityReports/ContactDataQualityDescriptions</members>
+        <members>DataQualityReports/ContactDataQualityScore</members>
+        <members>DataQualityReports/ContactOwnerDataQuality</members>
+        <members>DataQualityReports/ContractDataQualityDescription</members>
+        <members>DataQualityReports/ContractDataQualityScore</members>
+        <members>DataQualityReports/ContractOwnerDataQuality</members>
+        <members>DataQualityReports/LeadDataQualityDescription</members>
+        <members>DataQualityReports/LeadDataQualityScore</members>
+        <members>DataQualityReports/LeadOwnerDataQuality</members>
+        <members>DataQualityReports/OpportunityDataQualityDescription</members>
+        <members>DataQualityReports/OpportunityDataQualityScore</members>
+        <members>DataQualityReports/OpportunityOwnerDataQuality</members>
+        <members>DealRegistration</members>
+        <members>DealRegistration/ApprovedDeals</members>
+        <members>DealRegistration/ApprovedDealsByCountryValue</members>
+        <members>DealRegistration/ApprovedDealsByDealSourceValue</members>
+        <members>DealRegistration/ApprovedDealsByDistributorValue</members>
+        <members>DealRegistration/ApprovedDealsByIndustryValue</members>
+        <members>DealRegistration/ApprovedDealsByPartnerAccountValue</members>
+        <members>DealRegistration/ApprovedDealsByProductValue</members>
+        <members>DealRegistration/ApprovedtoConvertedRatio</members>
+        <members>DealRegistration/ClosedDealsByPartnerValue</members>
+        <members>DealRegistration/DealRegistrationAgingReport</members>
+        <members>DealRegistration/DealRegistrationCloseRate</members>
+        <members>DealRegistration/DealRegistrationClosedValue</members>
+        <members>DealRegistration/DealRegistrationList</members>
+        <members>DealRegistration/DealRegistrationTrend</members>
+        <members>DealRegistration/DealsByStage</members>
+        <members>DealRegistration/DealsExpiringThisMonth</members>
+        <members>DealRegistration/ExpiredRegistrations</members>
+        <members>DealRegistration/InDraft</members>
+        <members>DealRegistration/PendingApproval</members>
+        <members>DealRegistration/PendingApprovedRegsToConvert</members>
+        <members>DealRegistration/RegistrationsExpiringin7Days</members>
+        <members>DealRegistration/RejectedDeals</members>
+        <members>ExpenseReports</members>
+        <members>ExpenseReports/AverageExpensebyEmployee</members>
+        <members>ExpenseReports/CurrentQuarterExpenditureBreakdown</members>
+        <members>ExpenseReports/EmployeeExpenseReport</members>
+        <members>ExpenseReports/ExpenseAmountbyExpenditureType</members>
+        <members>ExpenseReports/ExpenseReportStatusSummary</members>
+        <members>ExpenseReports/ExpenseReportsbyApprovingManager</members>
+        <members>ExpenseReports/ExpensesbyMonth</members>
+        <members>ExpenseReports/ExpensesbyOpportunity</members>
+        <members>ExpenseReports/TopAirlinesUsed</members>
+        <members>ExpenseReports/TotalEmployeeExpenditure</members>
+        <members>ForecastReports</members>
+        <members>ForecastReports/Forecasted_Revenue_by_Account</members>
+        <members>ForecastReports/QuotaVsActualPercentage</members>
+        <members>ForecastReports/Reports_Forecasted_Revenue_by_FQ</members>
+        <members>IdeasReports</members>
+        <members>IdeasReports/Average_Vote_Total_By_Category</members>
+        <members>IdeasReports/ByVoteValue</members>
+        <members>IdeasReports/Departments</members>
+        <members>IdeasReports/Departments_d_2</members>
+        <members>IdeasReports/Ideas_by_Category_Status</members>
+        <members>IdeasReports/Ideas_by_User</members>
+        <members>IdeasReports/IdeasbyMonth</members>
+        <members>IdeasReports/MostActiveCompaniesSubmittingIdeas</members>
+        <members>IdeasReports/MostActiveVoters</members>
+        <members>IdeasReports/MostDiscussed</members>
+        <members>IdeasReports/MostDiscussed_d_2</members>
+        <members>IdeasReports/Mostactivecategories</members>
+        <members>IdeasReports/Mostactivecategories_d_2</members>
+        <members>IdeasReports/TopCompanyWideImprovements</members>
+        <members>IdeasReports/TopContributorsbyVoteTotal</members>
+        <members>IdeasReports/TopIdeas</members>
+        <members>IdeasReports/TopIdeas_d_2</members>
+        <members>IdeasReports/TopMarketingImprovements</members>
+        <members>IdeasReports/TopPortalImprovements</members>
+        <members>IdeasReports/TopSalesImprovements</members>
+        <members>IdeasReports/TopSupportImprovements</members>
+        <members>IdeasReports/VotesCast</members>
+        <members>IdeasReports/VotesCastLast30Days</members>
+        <members>IdeasReports/Watchlist</members>
+        <members>IdeasReports/Watchlist_d_2</members>
+        <members>IdeasinAction</members>
+        <members>IdeasinAction/ActiveProjects</members>
+        <members>IdeasinAction/ByLevelofEffort</members>
+        <members>IdeasinAction/ByTypeofProject</members>
+        <members>IdeasinAction/CommunityIdeas</members>
+        <members>IdeasinAction/CompletedProjects</members>
+        <members>IdeasinAction/DeferredIdeas</members>
+        <members>IdeasinAction/DeliveredIdeas</members>
+        <members>IdeasinAction/IdeasinAction</members>
+        <members>IdeasinAction/IdeasinActionChangeHistory</members>
+        <members>IdeasinAction/ProjectsByProjectStatus</members>
+        <members>IdeasinAction/ProjectsbyDepartment</members>
+        <members>IdeasinAction/ProjectsbyStage</members>
+        <members>IdeasinAction/ReviewedandDeferred</members>
+        <members>Knowledge_Reports</members>
+        <members>Knowledge_Reports/Article_by_Score</members>
+        <members>Knowledge_Reports/Case_Association</members>
+        <members>Knowledge_Reports/Knowledge_Score_by_Channel</members>
+        <members>Knowledge_Reports/Knowledge_Search_Queries</members>
+        <members>Knowledge_Reports/Knowledge_Searches_by_Channel</members>
+        <members>Knowledge_Reports/Knowledge_Searches_by_Week</members>
+        <members>Knowledge_Reports/Most_Viewed_Articles</members>
+        <members>Knowledge_Reports/Search_Queries_with_no_Results</members>
+        <members>LeadDashboardDashboardUnknown</members>
+        <members>LeadDashboardDashboardUnknown/ConvertedwithOpptys</members>
+        <members>LeadDashboardDashboardUnknown/LeadOwnerBreakdown</members>
+        <members>LeadDashboardDashboardUnknown/LeadSourceandStatus</members>
+        <members>LeadDashboardDashboardUnknown/LeadsbyPhone</members>
+        <members>LeadDashboardDashboardUnknown/LeadsbySource</members>
+        <members>LeadDashboardDashboardUnknown/LeadsbyWeb</members>
+        <members>LeadDashboardDashboardUnknown/OtherLeadsThisWeek</members>
+        <members>LeadDashboardDashboardUnknown/TotalLeadOwnership</members>
+        <members>LeadDashboardDashboardUnknown/TrendLeadY2YCompare</members>
+        <members>Lead_Analysis_Dashboard_Reports</members>
+        <members>Lead_Analysis_Dashboard_Reports/Average_Age_of_Open_Leads</members>
+        <members>Lead_Analysis_Dashboard_Reports/Average_Lead_Score_by_Campaign</members>
+        <members>Lead_Analysis_Dashboard_Reports/Converted_Leads_by_Campaign</members>
+        <members>Lead_Analysis_Dashboard_Reports/Cost_Per_Lead_by_Campaign</members>
+        <members>Lead_Analysis_Dashboard_Reports/Lead_Archive_Report</members>
+        <members>Lead_Analysis_Dashboard_Reports/Lead_Follow_up</members>
+        <members>Lead_Analysis_Dashboard_Reports/Lead_History</members>
+        <members>Lead_Analysis_Dashboard_Reports/Lead_Status_Campaign</members>
+        <members>Lead_Analysis_Dashboard_Reports/Open_Leads_By_Rep</members>
+        <members>Lead_Analysis_Dashboard_Reports/Revenue_by_Campaign</members>
+        <members>MarketingExecDashboard</members>
+        <members>MarketingExecDashboard/All_Campaigns_Report</members>
+        <members>MarketingExecDashboard/Archiveinterestreason</members>
+        <members>MarketingExecDashboard/CampaignAnalysis2</members>
+        <members>MarketingExecDashboard/CampaignAnaysisReport</members>
+        <members>MarketingExecDashboard/CampaignROI</members>
+        <members>MarketingExecDashboard/CampaignROIbyCampaignType</members>
+        <members>MarketingExecDashboard/CampaignRevenuebyType</members>
+        <members>MarketingExecDashboard/Campaign_Member_Report</members>
+        <members>MarketingExecDashboard/HTMLResponseReport</members>
+        <members>MarketingExecDashboard/LeadConversionRevenueAmount</members>
+        <members>MarketingExecDashboard/LeadConvertedTotalThisMonth</members>
+        <members>MarketingExecDashboard/LeadScoreByRegion</members>
+        <members>MarketingExecDashboard/LeadsbyCampaign</members>
+        <members>MarketingExecDashboard/MailingListByTitle</members>
+        <members>MarketingExecDashboard/Productbyrating</members>
+        <members>MarketingExecDashboard/Q3UnspentMarketingBudget</members>
+        <members>MarketingExecDashboard/ResponseRateByCampaignTactic</members>
+        <members>MarketingExecDashboard/RevenuebyCampaignType</members>
+        <members>MarketingExecDashboard/TopMarketingChannels</members>
+        <members>Milestone_Project_Management</members>
+        <members>Milestone_Project_Management/Active_Projects_Open_Milestones</members>
+        <members>Milestone_Project_Management/Blocked_Task_Report</members>
+        <members>Milestone_Project_Management/Blocked_Tasks_by_Project</members>
+        <members>Milestone_Project_Management/Milestone_Task_Expenses_Summary</members>
+        <members>Milestone_Project_Management/Milestone_Times_Summary</members>
+        <members>Milestone_Project_Management/Milestones_and_Open_Tasks_by_Proj_LPM1</members>
+        <members>Milestone_Project_Management/My_Blocked_Tasks_DB</members>
+        <members>Milestone_Project_Management/My_Incomplete_Tasks_By_Priority</members>
+        <members>Milestone_Project_Management/My_Incomplete_Tasks_By_Project</members>
+        <members>Milestone_Project_Management/My_Late_Tasks_DB</members>
+        <members>Milestone_Project_Management/My_Project_Hours_Week_DB</members>
+        <members>Milestone_Project_Management/My_Project_Tasks</members>
+        <members>Milestone_Project_Management/Open_Tasks_By_Project_LPM1</members>
+        <members>Milestone_Project_Management/Overdue_Tasks_by_Project</members>
+        <members>Milestone_Project_Management/Project_Snapshot</members>
+        <members>Milestone_Project_Management/Project_Snapshot_List</members>
+        <members>Milestone_Project_Management/Project_Tasks_By_Assignee</members>
+        <members>Milestone_Project_Management/Snapshot_Matrix_Open_Tasks_by_Day</members>
+        <members>Milestone_Project_Management/Snapshot_Project_Date_Open_Tasks_DB</members>
+        <members>Milestone_Project_Management/Snapshots_Active_Project_Count_DB</members>
+        <members>Milestone_Project_Management/Snapshots_Total_Estimated_Task_Hours</members>
+        <members>Milestone_Project_Management/Summary_My_Blocked_Tasks_LPM1</members>
+        <members>Milestone_Project_Management/Summary_My_Late_Tasks_LPM1</members>
+        <members>Milestone_Project_Management/Tasks_By_Project_LPM1</members>
+        <members>Milestone_Project_Management/User_Expense_Incurred</members>
+        <members>Milestone_Project_Management/User_Time_Incurred</members>
+        <members>PRMDashboard</members>
+        <members>PRMDashboard/ChannelPipelineByStage</members>
+        <members>PRMDashboard/ClosedBusinessbyPartnerbyMonth</members>
+        <members>PRMDashboard/ClosedRevenuebyPartner</members>
+        <members>PRMDashboard/PRMAllPartnerdealregistrations</members>
+        <members>PRMDashboard/PRMChannelForecastthisFQ</members>
+        <members>PRMDashboard/PRMClosedwonIndirectandindirect06</members>
+        <members>PRMDashboard/PRMClosedwonbyChannel</members>
+        <members>PRMDashboard/PRMClosedwonbydirectsalesteam</members>
+        <members>PRMDashboard/PRMClosedwonbypartner06</members>
+        <members>PRMDashboard/PRMClosedwonsalesbypartner</members>
+        <members>PRMDashboard/PRMConvertedleadsbypartner</members>
+        <members>PRMDashboard/PRMDealregistrationsbypartner</members>
+        <members>PRMDashboard/PRMLeadConversionratio</members>
+        <members>PRMDashboard/PRMLeadlifetimeconvertedratio</members>
+        <members>PRMDashboard/PRMNegelectedleadswithnofollowup</members>
+        <members>PRMDashboard/PRMPartnerPipelinebystage</members>
+        <members>PRMDashboard/PRMPartneravgstageduration</members>
+        <members>PRMDashboard/PRMPartnerclosedwonratio</members>
+        <members>PRMDashboard/PRMPartnersalespipelinethisnextFQ</members>
+        <members>PRMDashboard/PRMPartnersbyaddedpipeline</members>
+        <members>PRMDashboard/PRMPartnerwinlossreport</members>
+        <members>PRMDashboard/PRMTopthreepartnersbypipeline</members>
+        <members>PRMDashboard/PRMpartnerleads</members>
+        <members>PRMDashboard/PartnerWinRates</members>
+        <members>PRMDashboard/PartnerswithBiggestPipelines</members>
+        <members>PartnerAccountManagementPerformance</members>
+        <members>PartnerAccountManagementPerformance/PRMCloseRate</members>
+        <members>PartnerAccountManagementPerformance/PRMGeographicCoverageModels</members>
+        <members>PartnerAccountManagementPerformance/PRMPartnerTiers</members>
+        <members>PartnerAccountManagementPerformance/PRMPartnerType</members>
+        <members>PartnerAccountManagementPerformance/PRMValueClosedOpportunities</members>
+        <members>PartnerAccountManagementPerformance/PRMValueOpenOpportunities</members>
+        <members>PartnerAccountManagementPerformance/PRMYTDRevenueTargets</members>
+        <members>PartnerAccountManagementPerformance/PartnerOpportunitywinrate</members>
+        <members>Partner_Portal_Reports</members>
+        <members>Partner_Portal_Reports/ChannelPipelinebyStage2</members>
+        <members>Partner_Portal_Reports/ClosedWonRatio</members>
+        <members>QualityAssuranceReports</members>
+        <members>QualityAssuranceReports/AvgDaysbyPriority</members>
+        <members>QualityAssuranceReports/BugsbyPriority</members>
+        <members>QualityAssuranceReports/BugsbyStatusAction</members>
+        <members>QualityAssuranceReports/Casebyrelease</members>
+        <members>QualityAssuranceReports/MyBugsopen30days</members>
+        <members>QualityAssuranceReports/PlannedStaffTimeMinutes</members>
+        <members>QualityAssuranceReports/ProgressReports</members>
+        <members>QualityAssuranceReports/QAUnassignedBugs</members>
+        <members>QualityAssuranceReports/TestCasesbyTestPhase</members>
+        <members>QualityAssuranceReports/TestCasesbyType</members>
+        <members>QualityAssuranceReports/ofTestCasesbyComponent</members>
+        <members>QualityAssuranceReports/ofTestCasesbyStatus</members>
+        <members>QuoteLineItems</members>
+        <members>QuoteLineItems/QuoteDetailsbybundle</members>
+        <members>QuoteLineItems/QuoteandQuoteLines</members>
+        <members>SalesExecDashboard</members>
+        <members>SalesExecDashboard/Accounts_by_Industry</members>
+        <members>SalesExecDashboard/Accounts_with_Opportunities_Open_Cases</members>
+        <members>SalesExecDashboard/Activities_By_Type</members>
+        <members>SalesExecDashboard/Activities_by_Account_Type</members>
+        <members>SalesExecDashboard/Activities_by_Status</members>
+        <members>SalesExecDashboard/AverageSalesCycleLengthbyRep</members>
+        <members>SalesExecDashboard/BiggestOpenDeals</members>
+        <members>SalesExecDashboard/Call_Volume_by_Rep</members>
+        <members>SalesExecDashboard/ClosedBusinessQTD</members>
+        <members>SalesExecDashboard/Completed_Activities_by_Rep_and_Type</members>
+        <members>SalesExecDashboard/Completed_Activities_by_Type</members>
+        <members>SalesExecDashboard/Deals_this_month_with_Open_activities</members>
+        <members>SalesExecDashboard/Leads_by_Growth_State04t30000000KteN</members>
+        <members>SalesExecDashboard/Leads_by_Owners04t30000000KteN</members>
+        <members>SalesExecDashboard/Leads_by_Product_Interest</members>
+        <members>SalesExecDashboard/Leads_by_State_and_Owner04t30000000KteN</members>
+        <members>SalesExecDashboard/Lost_Deals_to_Competitor</members>
+        <members>SalesExecDashboard/My_Open_Activities</members>
+        <members>SalesExecDashboard/OpportunityProductPipeline</members>
+        <members>SalesExecDashboard/OpportunityTrends</members>
+        <members>SalesExecDashboard/Opportunity_Revenue_Prob_by_Lead_Source</members>
+        <members>SalesExecDashboard/Pipeline_by_Deal_Band</members>
+        <members>SalesExecDashboard/PipelinebyForecastCatSalesRegion</members>
+        <members>SalesExecDashboard/PipelinebyStageandType</members>
+        <members>SalesExecDashboard/Prospecting_by_Rep</members>
+        <members>SalesExecDashboard/Quotes_by_Owner_and_Status</members>
+        <members>SalesExecDashboard/Regional_Revenue_By_Account</members>
+        <members>SalesExecDashboard/Regional_Revenue_By_Type</members>
+        <members>SalesExecDashboard/Regional_Revenue_by_Lead_Source</members>
+        <members>SalesExecDashboard/Representative_Call_Report</members>
+        <members>SalesExecDashboard/RevenueTrendbyType</members>
+        <members>SalesExecDashboard/SALESTotalClosedYEAR</members>
+        <members>SalesExecDashboard/SalesActivity</members>
+        <members>SalesExecDashboard/SalestoDateversusPreviousMonth</members>
+        <members>SalesExecDashboard/StuckOpportunities</members>
+        <members>SalesExecDashboard/Test_Regional_Revenue</members>
+        <members>SalesExecDashboard/TopReps</members>
+        <members>SalesExecDashboard/TopReps_d_2</members>
+        <members>SalesExecDashboard/WinLossRatioonelinereport</members>
+        <members>SalesExecDashboard/WinRateCurrentFY</members>
+        <members>Salesforce_Content</members>
+        <members>Salesforce_Content/Content_By_Tag_Report</members>
+        <members>Salesforce_Content/Content_by_Downloads</members>
+        <members>Salesforce_Content/Content_by_Subscriptions</members>
+        <members>Salesforce_Content/Content_by_Workspace</members>
+        <members>Salesforce_Content/Workspace_Sizes_Mb</members>
+        <members>ServiceExecDashboard</members>
+        <members>ServiceExecDashboard/Answers_Questions_with_Replies</members>
+        <members>ServiceExecDashboard/Article_Attachment_Metrics</members>
+        <members>ServiceExecDashboard/AverageTimeSpentbyRepandPriority</members>
+        <members>ServiceExecDashboard/Case_Volume_by_Product_Line</members>
+        <members>ServiceExecDashboard/CasesClosedinPortalbyType</members>
+        <members>ServiceExecDashboard/Cases_Age_Analysis</members>
+        <members>ServiceExecDashboard/Cases_with_Articles_Including_View_stat</members>
+        <members>ServiceExecDashboard/Cases_with_Milestones_Status_Report</members>
+        <members>ServiceExecDashboard/CasesbyCaseOrigin</members>
+        <members>ServiceExecDashboard/ClosedCasesbyRepMTD</members>
+        <members>ServiceExecDashboard/CustomerSatisfactionIndex</members>
+        <members>ServiceExecDashboard/Entitlements_Cases_by_Milestones</members>
+        <members>ServiceExecDashboard/Entitlements_Contracts_with_Contacts</members>
+        <members>ServiceExecDashboard/FirstCallCloses</members>
+        <members>ServiceExecDashboard/Live_Agent_Chat_Analysis</members>
+        <members>ServiceExecDashboard/MostPopularSolutions</members>
+        <members>ServiceExecDashboard/OpenCasesbyAccount</members>
+        <members>ServiceExecDashboard/OpenCasesbyAgentCasePriority</members>
+        <members>ServiceExecDashboard/OpenCasesbyAgentbyStatus</members>
+        <members>ServiceExecDashboard/OpenCasesbyPriority</members>
+        <members>ServiceExecDashboard/PortalLoginsbyWeek</members>
+        <members>ServiceExecDashboard/SolutionsbyAuthor</members>
+        <members>ServiceExecDashboard/SolutionsbyCategory</members>
+        <members>ServiceExecDashboard/UnassignedCasesbyQueue</members>
+        <members>Service_Cloud_Report</members>
+        <members>Service_Cloud_Report/APXSKArticleCaseAssosiation</members>
+        <members>Service_Cloud_Report/APXSKArticleCaseButPrivate</members>
+        <members>Service_Cloud_Report/APXSKArticlePublishedDay</members>
+        <members>Service_Cloud_Report/APXSKArticleRateAuthor</members>
+        <members>Service_Cloud_Report/APXSKArticleRateCustomerPortal</members>
+        <members>Service_Cloud_Report/APXSKArticleRateInternalApp</members>
+        <members>Service_Cloud_Report/APXSKArticleRatePartnerPortal</members>
+        <members>Service_Cloud_Report/APXSKArticleSearchChannel</members>
+        <members>Service_Cloud_Report/APXSKArticleUpdatedMonth</members>
+        <members>Service_Cloud_Report/APXSKArticleViewChannel</members>
+        <members>Service_Cloud_Report/APXSKArticlesPublishedChannel</members>
+        <members>Service_Cloud_Report/APXSKCaseAssociationArticle</members>
+        <members>Service_Cloud_Report/APXSKCaseAssociationByAuthor</members>
+        <members>Service_Cloud_Report/APXSKPublishedArticles</members>
+        <members>Service_Cloud_Report/APXSKSumArticleCreator</members>
+        <members>Service_Cloud_Report/APXSKSumArticlePublishedUser</members>
+        <members>Service_Cloud_Report/APXSKVoteActivity</members>
+        <members>Service_Cloud_Report/APXSK_Article_Rate_from_Internal_App</members>
+        <members>Service_Cloud_Report/APXSK_Article_creation</members>
+        <members>Service_Cloud_Report/APXSK_Case_Association_Article</members>
+        <members>SurveyCustomLinkReports</members>
+        <members>SurveyCustomLinkReports/SurveyResults</members>
+        <members>Telephony_Dashboard_Reports</members>
+        <members>Telephony_Dashboard_Reports/Queue_Stats_Abandon_Rate</members>
+        <members>Telephony_Dashboard_Reports/Queue_Stats_Abandoned_Calls</members>
+        <members>Telephony_Dashboard_Reports/Queue_Stats_Agent_Utilization</members>
+        <members>Telephony_Dashboard_Reports/Queue_Stats_Handle_Times</members>
+        <members>Telephony_Dashboard_Reports/Queue_Stats_Inbound_Calls</members>
+        <members>Telephony_Dashboard_Reports/Queue_Stats_Longest_Queue_Time</members>
+        <members>Telephony_Dashboard_Reports/Queue_Stats_Outbound_Calls</members>
+        <members>Telephony_Dashboard_Reports/Queue_Stats_Queue_Times</members>
+        <members>Telephony_Dashboard_Reports/Queue_Stats_Speed_to_Answer_Times</members>
+        <members>Telephony_Dashboard_Reports/Queue_Stats_Volumes_By_Queue</members>
+        <members>Trending_Reports</members>
+        <members>Trending_Reports/CaseOwnerTrending</members>
+        <members>Trending_Reports/CasePipelineSnapshot</members>
+        <members>Trending_Reports/CaseStatusTrending</members>
+        <members>Trending_Reports/OpportunityAnalyticSnapshot</members>
+        <members>Trending_Reports/OpportunitySnapshotReport</members>
+        <members>Trending_Reports/OpportunitySnapshotbyAccount</members>
+        <members>Trending_Reports/OpptyStageSnapshotDetails</members>
+        <members>unfiled$public</members>
+        <members>unfiled$public/Candidates_by_Position</members>
+        <members>unfiled$public/MY_DQ_report</members>
+        <name>Report</name>
+    </types>
+    <types>
+        <members>Account_Duplicates</members>
+        <members>Account_Opportunity_Summary</members>
+        <members>Accounts_with_Entitlements_with_Contacts</members>
+        <members>Accounts_with_Service_Contracts_and_Renewals</members>
+        <members>Accounts_with_or_without_opportunities</members>
+        <members>Asset_Contact_Report_Type</members>
+        <members>CampaignInfluence</members>
+        <members>Cases_with_Articles_View_Stats</members>
+        <members>Cases_with_Work_Orders_with_Time_Expense_Entries</members>
+        <members>Chat_Analysis</members>
+        <members>Chatter_Groups_with_Group_Feed</members>
+        <members>Chatter_Groups_with_Group_Feed_and_Comments</members>
+        <members>Chatter_Groups_with_Group_Members</members>
+        <members>DR</members>
+        <members>Forecasting_Items</members>
+        <members>Ideas</members>
+        <members>Ideas2</members>
+        <members>IdeasUserInformation</members>
+        <members>IdeasUserInformation2</members>
+        <members>IdeasVotes</members>
+        <members>IdeasVotesAccounts</members>
+        <members>Knowledge_Artcile_Searches</members>
+        <members>Knowledge_Article_Search_Stats</members>
+        <members>Knowledge_Article_Stats</members>
+        <members>Knowledge_Articles</members>
+        <members>Knowledge_Articles_Views</members>
+        <members>Knowledge_Articles_Votes</members>
+        <members>Knowledge_Articles_w_Votes</members>
+        <members>Knowledge_Keyword_Search_Stats</members>
+        <members>Milestone1_Milestones_Tasks</members>
+        <members>Milestone1_Projects</members>
+        <members>Milestone1_Projects_Milestones</members>
+        <members>Milestone1_Tasks</members>
+        <members>MilestoneTaskExp</members>
+        <members>Milestones_with_Tasks_with_Expenses</members>
+        <members>Milestones_with_Tasks_with_Times</members>
+        <members>Opp_without_activities</members>
+        <members>Opportunity_with_Quote_NO_Liness</members>
+        <members>Opportunity_with_Quotes</members>
+        <members>Projects_Milestones_Tasks</members>
+        <members>Questions_with_Answers</members>
+        <members>Quota_attainment_report</members>
+        <members>REPORTS_RUN_OR_NOT</members>
+        <members>Service_Contracts_with_Contract_Line_Items</members>
+        <members>Service_Contracts_with_Entitlements</members>
+        <members>Users_with_Followers</members>
+        <members>Users_with_User_Feed</members>
+        <members>Users_with_User_Feed_and_Comments</members>
+        <name>ReportType</name>
+    </types>
+    <types>
+        <members>AcmePartnersPartnerExecutive</members>
+        <members>AcmePartnersPartnerManager</members>
+        <members>AcmePartnersPartnerUser</members>
+        <members>AntonyPassemardCustomerExecutive</members>
+        <members>AntonyPassemardCustomerManager</members>
+        <members>AntonyPassemardCustomerUser</members>
+        <members>BillingSupport</members>
+        <members>BronzePartnersPartnerExecutive</members>
+        <members>BronzePartnersPartnerManager</members>
+        <members>BronzePartnersPartnerUser</members>
+        <members>CEO</members>
+        <members>CTWResellersPartnerExecutive</members>
+        <members>CTWResellersPartnerManager</members>
+        <members>CTWResellersPartnerUser</members>
+        <members>CentralSales</members>
+        <members>ChannelManager</members>
+        <members>DFCIncCustomerExecutive</members>
+        <members>DFCIncCustomerManager</members>
+        <members>DFCIncCustomerUser</members>
+        <members>DirectorFinance</members>
+        <members>Director_of_Finance_EMEA</members>
+        <members>DirectorofProfessionalServices</members>
+        <members>EastSales</members>
+        <members>FinanceManager</members>
+        <members>JHalpCustomerPersonAccount</members>
+        <members>Partner</members>
+        <members>ProjectManager</members>
+        <members>SVPCustomerServiceSupport</members>
+        <members>SVPMarketing</members>
+        <members>SVPSales</members>
+        <members>Sales_Reps</members>
+        <members>SilverPartnersPartnerExecutive</members>
+        <members>SilverPartnersPartnerManager</members>
+        <members>SilverPartnersPartnerUser</members>
+        <members>TeamLead</members>
+        <members>TeamMember</members>
+        <members>TechnicalSupport</members>
+        <members>ThirdPartyContractorsPartnerExecutive</members>
+        <members>ThirdPartyContractorsPartnerManager</members>
+        <members>ThirdPartyContractorsPartnerUser</members>
+        <members>UnitedPartnersCustomerExecutive</members>
+        <members>UnitedPartnersCustomerManager</members>
+        <members>UnitedPartnersCustomerUser</members>
+        <members>VPCentral</members>
+        <members>VPChannel</members>
+        <members>VPEast</members>
+        <members>VPInternational</members>
+        <members>VPWest</members>
+        <members>VandEnterprisesIncCustomerExecutive</members>
+        <members>VandEnterprisesIncCustomerManager</members>
+        <members>VandEnterprisesIncCustomerUser</members>
+        <members>WestSales</members>
+        <members>West_Sales_Manager</members>
+        <name>Role</name>
+    </types>
+    <types>
+        <members>AXIOMBDGEX</members>
+        <members>srbadge</members>
+        <name>SamlSsoConfig</name>
+    </types>
+    <types>
+        <members>AboutAutoComplete</members>
+        <members>AboutBugTrackingQA</members>
+        <members>AboutChannelFunds</members>
+        <members>AboutChannelPlans</members>
+        <members>AboutExpenseTracker</members>
+        <members>AboutQuoteLineItems</members>
+        <members>App_Description</members>
+        <members>Approval_Requests</members>
+        <members>ApproveFundClaim</members>
+        <members>ApproveFundRequest</members>
+        <members>ApproveQuotehtm</members>
+        <members>Asset</members>
+        <members>AutoComplete</members>
+        <members>Auto_Top_Solution_CP_Basic</members>
+        <members>Auto_Top_solutions</members>
+        <members>Availability_Calendar</members>
+        <members>CP_Basic_My_recently_updated_cases</members>
+        <members>CalculateTotal</members>
+        <members>Call_Down_List_Campaign</members>
+        <members>Channel_Manager_and_Profile</members>
+        <members>Current_Stats</members>
+        <members>CustomerPortalFlex</members>
+        <members>Customer_Entitlement_List</members>
+        <members>Customer_Portal</members>
+        <members>Date_Helper_Functions</members>
+        <members>Date_Shifter</members>
+        <members>DenyRejectQuotehtm</members>
+        <members>Email_Solution</members>
+        <members>FLEX_Log_a_Call</members>
+        <members>FLEX_Map_accounts</members>
+        <members>Flex_Forecast_Generator</members>
+        <members>Forward_Lead</members>
+        <members>GoogleMap33</members>
+        <members>GoogleMapsSearch</members>
+        <members>Google_Map_on_Account</members>
+        <members>HelperFunctions</members>
+        <members>Lead_Inbox</members>
+        <members>My_Recent_Cases</members>
+        <members>Opportunity_Statistic_Chart_Amount</members>
+        <members>Opportunity_Statistic_Chart_Number</members>
+        <members>PSA_Calendar_Code</members>
+        <members>Partner_Portal</members>
+        <members>Portal_Entitlement_List</members>
+        <members>Prototype_Libraries</members>
+        <members>RecalculateBudget</members>
+        <members>RejectFundClaim</members>
+        <members>RejectFundRequest</members>
+        <members>SAP_Credit_Exposure</members>
+        <members>SSP_Portal_Header</members>
+        <members>Self_Service_Portal</members>
+        <members>Simple_Web2Case</members>
+        <members>Simple_Web2Lead</members>
+        <members>SubmitFundClaim</members>
+        <members>SubmitFundRequest</members>
+        <members>Timeline_CSS</members>
+        <members>Timeline_mit_lib</members>
+        <members>TrainingTimeline</members>
+        <members>Update_Scorecard</members>
+        <members>User_Setup</members>
+        <members>W2L_W2C_Landing_Page</members>
+        <members>addProductQuoteV3htm</members>
+        <members>case_cronhtml</members>
+        <members>editQuoteLinesV3htm</members>
+        <members>quoteApprovalRequesthtm</members>
+        <members>quoteLineItemCloneV3htm</members>
+        <members>quoteLinesToOppRecordV3htm</members>
+        <members>recalcQuoteAmountV3htm</members>
+        <name>Scontrol</name>
+    </types>
+    <types>
+        <members>Account</members>
+        <members>ActionPlanTemplate__c</members>
+        <members>ActionPlan__c</members>
+        <members>Activity_Template__c</members>
+        <members>ApexBadgeCryptoKey__c</members>
+        <members>Apex_Sharing_Test__c</members>
+        <members>Asset</members>
+        <members>CTIAnywhere__c</members>
+        <members>Campaign</members>
+        <members>Candidate__c</members>
+        <members>Case</members>
+        <members>Case_Pipeline_Snapshot__c</members>
+        <members>Case_Swarm_Rule__c</members>
+        <members>Chatter_Marquee__c</members>
+        <members>Chatter_Message__c</members>
+        <members>ChildOfOppProd__c</members>
+        <members>Claims__c</members>
+        <members>Console_Dashboard__c</members>
+        <members>Contact</members>
+        <members>CovDependencies__c</members>
+        <members>Customer_Portal_Savings_Calculator__c</members>
+        <members>DEMODATA__c</members>
+        <members>Data_sfga_header__c</members>
+        <members>DateShifter__c</members>
+        <members>Demo_Overview__c</members>
+        <members>Employment_Website__c</members>
+        <members>EncryptTest__c</members>
+        <members>Feed_Post_Swarm_Rule__c</members>
+        <members>Feedback__c</members>
+        <members>Green_Rider_Settings__c</members>
+        <members>Ideas_Projects__c</members>
+        <members>InsCoverage__c</members>
+        <members>InsuranceCoverageTypes__c</members>
+        <members>Invoice__c</members>
+        <members>Issue__c</members>
+        <members>Job_Application__c</members>
+        <members>Lead</members>
+        <members>Lead_Swarm_Rule__c</members>
+        <members>MWA1_Entry__c</members>
+        <members>MWA1_Submission__c</members>
+        <members>MWA1_Survey__c</members>
+        <members>Merchandise__c</members>
+        <members>Milestone1_Milestone__c</members>
+        <members>Milestone1_Project__c</members>
+        <members>Milestone1_Settings__c</members>
+        <members>My_Notes__c</members>
+        <members>NewChl__c</members>
+        <members>Observation__c</members>
+        <members>OppSalesProcLayout__c</members>
+        <members>OppWSURL__c</members>
+        <members>Opportunity</members>
+        <members>Opportunity_Note__c</members>
+        <members>Opportunity_Pipeline_Snapshot__c</members>
+        <members>Opportunity_Swarm_Rule__c</members>
+        <members>Order</members>
+        <members>PKB_Article_Feedback_Deflection__c</members>
+        <members>PKB_Featured__c</members>
+        <members>PKB__c</members>
+        <members>Position__c</members>
+        <members>ProjMgrs__c</members>
+        <members>Project_Snapshot__c</members>
+        <members>Queue_Stat__c</members>
+        <members>RMA__c</members>
+        <members>RM__c</members>
+        <members>Referrals__c</members>
+        <members>Related_Idea__c</members>
+        <members>RidesAvailable__c</members>
+        <members>SFDC_520_Approval_Request__c</members>
+        <members>SFDC_520_Quote__c</members>
+        <members>SFDC_Bug__c</members>
+        <members>SFDC_Channel_Account_Plan__c</members>
+        <members>SFDC_Channel_Budget__c</members>
+        <members>SFDC_Component__c</members>
+        <members>SFDC_Expense_Header__c</members>
+        <members>SFDC_Feature_Request__c</members>
+        <members>SFDC_MDF_Claim__c</members>
+        <members>SFDC_MDF__c</members>
+        <members>SFDC_Objective_Opportunity_Association__c</members>
+        <members>SFDC_Objective__c</members>
+        <members>SFDC_Plan_Resource_Association__c</members>
+        <members>SFDC_Test_Case__c</members>
+        <members>Sales_Coach_Activity__c</members>
+        <members>Sales_Coach_Admin__c</members>
+        <members>Sales_Coach_Role__c</members>
+        <members>Sales_Coach_Section__c</members>
+        <members>Sales_Coach_Stage__c</members>
+        <members>Sales_Order_Custom__c</members>
+        <members>Service__c</members>
+        <members>StateValues__c</members>
+        <members>Stop_Status__c</members>
+        <members>Ticker_Item__c</members>
+        <members>Ticker_Settings__c</members>
+        <members>TimeCapture__c</members>
+        <members>Top_Client__c</members>
+        <members>Training_Course__c</members>
+        <members>Training_Registration__c</members>
+        <members>User</members>
+        <members>data_sfga__c</members>
+        <members>data_sfga_camp__c</members>
+        <members>z_MetaDumpSetting__c</members>
+        <members>z_SObjectDescription__c</members>
+        <members>z_SchemaTemp__c</members>
+        <name>SharingRules</name>
+    </types>
+    <types>
+        <members>Cirrus_Computers</members>
+        <members>Cirrus_Customers1</members>
+        <name>SiteDotCom</name>
+    </types>
+    <types>
+        <members>Tier_1_Support</members>
+        <members>Tier_2_Support</members>
+        <name>Skill</name>
+    </types>
+    <types>
+        <members>ActionPlan_ActionPlanCreationScripts</members>
+        <members>ActionPlan_ActionPlanCreationStyles</members>
+        <members>ActionPlan_ActionPlanDetailScripts</members>
+        <members>ActionPlan_ActionPlanDetailStyles</members>
+        <members>ActionPlan_ActionPlanSelectStyles</members>
+        <members>ActionPlan_ActionPlanTemplateCreationScripts</members>
+        <members>ActionPlan_ActionPlanTemplateCreationStyles</members>
+        <members>ActionPlan_ActionPlanTemplateDetailScripts</members>
+        <members>ActionPlan_ActionPlanTemplateDetailStyles</members>
+        <members>ActionPlans_sortable</members>
+        <members>ConsoleChartIcon</members>
+        <members>ConsoleNotesIcon</members>
+        <members>CustomerPortalWelcome_MarketingHeaderImageCenter</members>
+        <members>CustomerPortalWelcome_MarketingHeaderImageLeft</members>
+        <members>CustomerPortalWelcome_MarketingHeaderImageRight</members>
+        <members>ElectronicsImg</members>
+        <members>GreenRider</members>
+        <members>HardwareImg</members>
+        <members>LA_Offline</members>
+        <members>LA_Online</members>
+        <members>Logo</members>
+        <members>Milestone1_Charts</members>
+        <members>Milestone1_Resource_Bundle</members>
+        <members>Modernizr</members>
+        <members>MyDeliveries</members>
+        <members>Pacific</members>
+        <members>PartnerPortalWelcome_MarketingHeaderImageCenter</members>
+        <members>PartnerPortalWelcome_MarketingHeaderImageLeft</members>
+        <members>PartnerPortalWelcome_MarketingHeaderImageRight</members>
+        <members>SalesCoachSaasy</members>
+        <members>Salesforce1ErrorMessage</members>
+        <members>SearchMyFeed</members>
+        <members>ServicesImg</members>
+        <members>Signature</members>
+        <members>SiteSamples</members>
+        <members>SoftwareImg</members>
+        <members>TelephonyDataFile</members>
+        <members>TopImage</members>
+        <members>UCIBanner</members>
+        <members>acct_paid</members>
+        <members>acct_pastdue</members>
+        <members>bigGun</members>
+        <members>chatterConnector</members>
+        <members>chatterDirectory</members>
+        <members>chatterMessages</members>
+        <members>chatterTooltip</members>
+        <members>cirrus_cti</members>
+        <members>cirrus_cti_hotkeys</members>
+        <members>cirrus_cti_phone</members>
+        <members>cirrus_live_agent_offline_btn</members>
+        <members>cirrus_live_agent_online_btn</members>
+        <members>copylogo</members>
+        <members>dollar_five</members>
+        <members>dollar_four</members>
+        <members>dollar_two</members>
+        <members>excanvas_js</members>
+        <members>facebooklogo</members>
+        <members>feedback_icon</members>
+        <members>feedback_two</members>
+        <members>followObject</members>
+        <members>greencheck</members>
+        <members>highcharts</members>
+        <members>iPhone5</members>
+        <members>icon_delivery</members>
+        <members>icon_information</members>
+        <members>iphonebackground</members>
+        <members>jQuery_CSS</members>
+        <members>jQuery_JS</members>
+        <members>jQuery_Multiselect_CSS</members>
+        <members>jQuery_Multiselect_JS</members>
+        <members>jQuery_UI_JS</members>
+        <members>jQuery_scrollTo_JS</members>
+        <members>jit_yc_js</members>
+        <members>loading_icon</members>
+        <members>pkb_close_icon</members>
+        <members>pkb_footer</members>
+        <members>pkb_icons</members>
+        <members>pkb_jquery_1_6_2</members>
+        <members>pkb_jquery_simplemodal_1_4_1</members>
+        <members>pkb_loadingdots</members>
+        <members>pkb_logo</members>
+        <members>pkb_reset_icon</members>
+        <members>pkb_search_icon</members>
+        <members>pkb_sprites</members>
+        <members>questionlogo</members>
+        <members>reject</members>
+        <members>salescoach</members>
+        <members>smallGun</members>
+        <members>twitterlogo</members>
+        <members>webticker</members>
+        <members>z_doc</members>
+        <members>z_img</members>
+        <members>z_progressbar</members>
+        <name>StaticResource</name>
+    </types>
+    <types>
+        <members>Subscription.North</members>
+        <members>Subscription.South</members>
+        <name>Territory2</name>
+    </types>
+    <types>
+        <members>Subscription</members>
+        <name>Territory2Model</name>
+    </types>
+    <types>
+        <members>Subscription.MyFirstRule</members>
+        <name>Territory2Rule</name>
+    </types>
+    <types>
+        <members>Services</members>
+        <name>Territory2Type</name>
+    </types>
+    <types>
+        <members>de</members>
+        <name>Translations</name>
+    </types>
+    <types>
+        <members>APTTaskTemplate__c</members>
+        <members>APTaskTemplate__c</members>
+        <members>Account</members>
+        <members>ActionPlanTemplate__c</members>
+        <members>ActionPlan__c</members>
+        <members>Activity_Template_Line__c</members>
+        <members>Activity_Template__c</members>
+        <members>ApexBadgeCryptoKey__c</members>
+        <members>Apex_Sharing_Test__c</members>
+        <members>Asset</members>
+        <members>BenefitOfOmega__kav</members>
+        <members>CTIAnywhere__c</members>
+        <members>Campaign</members>
+        <members>CampaignMember</members>
+        <members>Candidate__c</members>
+        <members>Case</members>
+        <members>Case_Pipeline_Snapshot__c</members>
+        <members>Case_Swarm_Rule__c</members>
+        <members>Chatter_Marquee__c</members>
+        <members>Chatter_Message_Recipient__c</members>
+        <members>Chatter_Message__c</members>
+        <members>ChildOfOppProd__c</members>
+        <members>Claims__c</members>
+        <members>Console_Dashboard__c</members>
+        <members>Contact</members>
+        <members>Contract</members>
+        <members>ContractLineItem</members>
+        <members>Contract_Renewal__c</members>
+        <members>CovDependencies__c</members>
+        <members>Customer_Portal_Savings_Calculator__c</members>
+        <members>Customers__x</members>
+        <members>DEMODATA__c</members>
+        <members>DandBCompany</members>
+        <members>Data_sfga_header__c</members>
+        <members>DateShifter__c</members>
+        <members>Demo_Overview__c</members>
+        <members>Driver__c</members>
+        <members>DuplicateRecordItem</members>
+        <members>DuplicateRecordSet</members>
+        <members>EmailMessage</members>
+        <members>Employment_Website__c</members>
+        <members>EncryptTest__c</members>
+        <members>Entitlement</members>
+        <members>EntitlementContact</members>
+        <members>Event</members>
+        <members>FAQ__kav</members>
+        <members>FeedItem</members>
+        <members>Feed_Post_Swarm_Rule__c</members>
+        <members>Feedback__c</members>
+        <members>Green_Rider_Settings__c</members>
+        <members>How_To__kav</members>
+        <members>Idea</members>
+        <members>Idea_Issues__c</members>
+        <members>Idea_Milestone__c</members>
+        <members>Idea_Team__c</members>
+        <members>Ideas_Projects__c</members>
+        <members>InsCoverage__c</members>
+        <members>InsuranceCoverageTypes__c</members>
+        <members>Interview__c</members>
+        <members>Invoice_Example__c</members>
+        <members>Invoice__c</members>
+        <members>Issue__c</members>
+        <members>Job_Application__c</members>
+        <members>Lead</members>
+        <members>Lead_Swarm_Rule__c</members>
+        <members>Line_Item__c</members>
+        <members>LiveAgentSession</members>
+        <members>LiveChatTranscript</members>
+        <members>LiveChatTranscriptEvent</members>
+        <members>LiveChatTranscriptSkill</members>
+        <members>MWA1_Answer__c</members>
+        <members>MWA1_Entry__c</members>
+        <members>MWA1_Submission__c</members>
+        <members>MWA1_Survey__c</members>
+        <members>Macro</members>
+        <members>MacroAction</members>
+        <members>MacroInstruction</members>
+        <members>Merchandise__c</members>
+        <members>Milestone1_Expense__c</members>
+        <members>Milestone1_Log__c</members>
+        <members>Milestone1_Milestone__c</members>
+        <members>Milestone1_Project__c</members>
+        <members>Milestone1_Settings__c</members>
+        <members>Milestone1_Task__c</members>
+        <members>Milestone1_Time__c</members>
+        <members>My_Notes__c</members>
+        <members>NewChl__c</members>
+        <members>OO1__x</members>
+        <members>Observation__c</members>
+        <members>OppSalesProcLayout__c</members>
+        <members>OppWSURL__c</members>
+        <members>Opportunity</members>
+        <members>OpportunityLineItem</members>
+        <members>OpportunityTeamMember</members>
+        <members>Opportunity_Note__c</members>
+        <members>Opportunity_Pipeline_Snapshot__c</members>
+        <members>Opportunity_Swarm_Rule__c</members>
+        <members>Order</members>
+        <members>OrderItem</members>
+        <members>Order_Details__x</members>
+        <members>Order_Line_Item__c</members>
+        <members>Orders__x</members>
+        <members>Organization</members>
+        <members>PKB_Article_Feedback_Deflection__c</members>
+        <members>PKB_Featured__c</members>
+        <members>PKB__c</members>
+        <members>Position__c</members>
+        <members>Product2</members>
+        <members>ProjMgrs__c</members>
+        <members>Project_Snapshot__c</members>
+        <members>Question</members>
+        <members>Queue_Stat__c</members>
+        <members>QuickText</members>
+        <members>Quote</members>
+        <members>QuoteLineItem</members>
+        <members>RMA_Transaction__c</members>
+        <members>RMA__c</members>
+        <members>RM__c</members>
+        <members>Referrals__c</members>
+        <members>Related_Case__c</members>
+        <members>Related_Idea__c</members>
+        <members>Reply</members>
+        <members>Review__c</members>
+        <members>RidesAvailable__c</members>
+        <members>SFDC_520_Approval_Request__c</members>
+        <members>SFDC_520_QuoteLine__c</members>
+        <members>SFDC_520_Quote__c</members>
+        <members>SFDC_Bug__c</members>
+        <members>SFDC_Channel_Account_Plan__c</members>
+        <members>SFDC_Channel_Budget_Entry__c</members>
+        <members>SFDC_Channel_Budget__c</members>
+        <members>SFDC_Component__c</members>
+        <members>SFDC_Expense_Header__c</members>
+        <members>SFDC_Expense_Line_Item__c</members>
+        <members>SFDC_Feature_Request__c</members>
+        <members>SFDC_MDF_Claim__c</members>
+        <members>SFDC_MDF__c</members>
+        <members>SFDC_Objective_Opportunity_Association__c</members>
+        <members>SFDC_Objective__c</members>
+        <members>SFDC_Plan_Resource_Association__c</members>
+        <members>SFDC_Related_Bug__c</members>
+        <members>SFDC_Test_Case__c</members>
+        <members>Sales_Coach_Activity__c</members>
+        <members>Sales_Coach_Admin__c</members>
+        <members>Sales_Coach_Role__c</members>
+        <members>Sales_Coach_Section_Item__c</members>
+        <members>Sales_Coach_Section__c</members>
+        <members>Sales_Coach_Stage__c</members>
+        <members>Sales_Order_Custom__c</members>
+        <members>ServiceContract</members>
+        <members>Service__c</members>
+        <members>Shipment__c</members>
+        <members>Site</members>
+        <members>SocialPersona</members>
+        <members>Solution</members>
+        <members>Standard_How_To__kav</members>
+        <members>StateValues__c</members>
+        <members>Stop_Status__c</members>
+        <members>StreamingChannel</members>
+        <members>Task</members>
+        <members>Technical_Problem_Fix__kav</members>
+        <members>Ticker_Item__c</members>
+        <members>Ticker_Settings__c</members>
+        <members>TimeCapture__c</members>
+        <members>Time_Expense_Entry__c</members>
+        <members>Top_Client__c</members>
+        <members>Training_Course__c</members>
+        <members>Training_Registration__c</members>
+        <members>User</members>
+        <members>UserLicense</members>
+        <members>UserProvisioningRequest</members>
+        <members>Work_Order__c</members>
+        <members>data_sfga__c</members>
+        <members>data_sfga_camp__c</members>
+        <members>iOrder__c</members>
+        <members>z_ChildRelationship__c</members>
+        <members>z_FieldDescription__c</members>
+        <members>z_MetaDumpSetting__c</members>
+        <members>z_SObjectDescription__c</members>
+        <members>z_SchemaTemp__c</members>
+        <name>Workflow</name>
+    </types>
+    <types>
+        <members>Account</members>
+        <members>Activities</members>
+        <members>Address</members>
+        <members>BusinessHours</members>
+        <members>Case</members>
+        <members>ChatterAnswers</members>
+        <members>Company</members>
+        <members>Contract</members>
+        <members>Entitlement</members>
+        <members>Forecasting</members>
+        <members>Ideas</members>
+        <members>Knowledge</members>
+        <members>LiveAgent</members>
+        <members>Mobile</members>
+        <members>Name</members>
+        <members>Opportunity</members>
+        <members>Order</members>
+        <members>PersonalJourney</members>
+        <members>Product</members>
+        <members>Quote</members>
+        <members>Security</members>
+        <members>Territory2</members>
+        <name>Settings</name>
+    </types>
+    <version>33.0</version>
+</Package>

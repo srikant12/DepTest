@@ -1,0 +1,22 @@
+<apex:page controller="PublicAccountController">
+<apex:pageMessages />
+<script>
+function confirmCancel() 
+{
+var isCancel = confirm ("Are you sure ?");
+if (isCancel) return true;
+    return false;
+}    
+</script>
+    <apex:form >
+    	<apex:pageBlock title="Enter Account Information">
+    	    <apex:outputText >Account First Name is: </apex:outputText>
+			<apex:inputText value="{!Account.firstName}" required="true"/>            
+                	    <apex:outputText >Account Last Name is: </apex:outputText>
+			<apex:inputText value="{!Account.lastName}" required="true"/>            
+	        <apex:pageBlockButtons >
+    	        <apex:commandButton action="{!Save}" value="Save"/>
+       		</apex:pageBlockButtons>    
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

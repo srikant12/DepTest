@@ -1,0 +1,38 @@
+<apex:page controller="AVFAccountController">
+<apex:pageMessages />
+<script>
+function confirmCancel() 
+{
+var isCancel = confirm ("Are you sure ?");
+if (isCancel) return true;
+    return false;
+}    
+    
+</script>
+    <apex:form >
+    	<apex:pageBlock id="pb1" title="Service Type">
+            <apex:pageBlockSection >
+            	<apex:actionRegion >
+            		<apex:inputField id="pkli1" required="true" value="{!service.Service_Ticket_Type__c }">
+                    	<apex:actionSupport event="onchange" rerender="pb1"/>
+                	</apex:inputField>    
+			 	</apex:actionRegion>
+             </apex:pageBlockSection>            
+
+            <apex:pageBlockSection id="bf1" rendered="true">
+            
+            	<apex:inputField id="billmonth" value="{!service.Billing_Month__c }"
+                                 rendered="{!IF(service.Service_Ticket_Type__c='Billing',true, false)}"/>
+            <apex:inputField id="lastpaydate" value="{!service.Last_Payment_Date__c }"
+                                 rendered="{!IF(service.Service_Ticket_Type__c='Billing',true, false)}"/>
+            </apex:pageBlockSection>
+
+            <apex:pageBlockButtons >
+	            <apex:commandButton action="{!Step3}" value="Next"/>
+	            <apex:commandButton action="{!prev}" value="Previous"/>               
+            </apex:pageBlockButtons>    
+        
+        </apex:pageBlock>
+    
+    </apex:form>
+</apex:page>

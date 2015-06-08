@@ -1,0 +1,23 @@
+<apex:page controller="CaseDynamicController">
+<apex:form id="f1">
+<apex:pageBlock > 
+<apex:outputPanel id="outerMost">    
+<apex:outputPanel id="outP">    
+<apex:pageBlockSection title="Case Data Entry">    
+    <apex:dynamicComponent componentValue="{!dynamicDetail}" />
+</apex:pageBlockSection>
+    </apex:outputPanel>
+    </apex:outputPanel>
+<apex:pageBlockSection >
+   <apex:selectCheckboxes id="chooseField" value="{!SelectedFields}">
+    <apex:selectOptions value="{!FieldList}">
+      </apex:selectOptions>
+   </apex:selectCheckboxes>
+</apex:pageBlockSection>
+    
+<apex:pageBlockButtons >
+            <apex:commandButton action="{!SaveConfig}" reRender="outerMost" value="Save Config"/>            
+</apex:pageBlockButtons>    
+</apex:pageBlock>    
+</apex:form>  
+</apex:page>

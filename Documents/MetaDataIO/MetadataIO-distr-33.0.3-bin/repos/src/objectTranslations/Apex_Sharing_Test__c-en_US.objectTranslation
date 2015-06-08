@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ApexShare</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>ApexShares</value>
+    </caseValues>
+    <fields>
+        <label><!-- OversightUser --></label>
+        <name>OversightUser__c</name>
+        <relationshipLabel><!-- ApexShares --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- instanceName --></label>
+        <name>instanceName__c</name>
+    </fields>
+    <sharingReasons>
+        <label><!-- ShareWithOverseer --></label>
+        <name>ShareWithOverseer</name>
+    </sharingReasons>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

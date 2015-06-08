@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>rsrikant@salesforce.com</contactEmail>
+    <label>immenseOcean</label>
+    <oauthConfig>
+        <callbackUrl>https://immense-mountain-8542.herokuapp.com/_auth</callbackUrl>
+        <consumerKey>3MVG9xOCXq4ID1uFAbAcRP2HOks34ajZ7hr3rpzYW1AOPbGygW5pSuOKE2Mc0FSitML86V02O5SIFeTK_Img5</consumerKey>
+        <scopes>Full</scopes>
+    </oauthConfig>
+</ConnectedApp>

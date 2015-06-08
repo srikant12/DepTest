@@ -1,0 +1,37 @@
+<apex:page Controller="AccountContactController">
+<apex:pageBlock title="Viewing Accounts">
+
+<apex:form id="theForm">
+
+    <apex:pageBlockSection >
+
+    <apex:dataList value="{!accounts}" rows="15" var="accWrap">
+    	<apex:outputText value="User ID : {!accWrap.userId}">
+        </apex:outputText>    
+        
+        <apex:dataList value="{!accWrap.accounts}" var="acc"> 
+                     <apex:outputText value="Account : {!acc.Name}"/>
+             <apex:dataList value="{!acc.Contacts}" var="cont"> 
+                     <apex:outputText value="Contact : {!cont.Name}"/>
+	         </apex:dataList>
+        </apex:dataList>
+        
+        
+    </apex:dataList>    
+        
+        
+    
+    </apex:pageBlockSection>
+    
+     <apex:panelGrid columns="2">
+    
+    	<apex:commandLink action="{!previous}">Previous</apex:commandLink>
+        <apex:commandLink action="{!next}">Next</apex:commandlink>
+    
+    </apex:panelGrid>
+    
+</apex:form>    
+    
+</apex:pageBlock>
+
+</apex:page>

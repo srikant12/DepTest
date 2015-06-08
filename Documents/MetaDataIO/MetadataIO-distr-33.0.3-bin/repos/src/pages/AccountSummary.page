@@ -1,0 +1,16 @@
+<apex:page id="thePage">
+<script type="text/javascript">
+    function doSomething()
+    {
+        alert('What ho');
+    }
+
+
+</script>
+    <apex:tabPanel switchType="client" selectedTab="name2" id="theTabPanel">
+    <apex:tab label="One" name="City" id="tabOne">content for tab one</apex:tab>
+    <apex:tab label="Two" name="State" id="tabTwo" onTabLeave="doSomething();">content for tab two</apex:tab>
+    </apex:tabPanel>
+    
+    <site:googleAnalyticsTracking />
+</apex:page>
